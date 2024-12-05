@@ -55,29 +55,54 @@ The NLQ (Natural Language Queries) dataset in the EGO4D benchmark contains appro
   "version": "1",
   "date": "220216",
   "description": "NLQ Annotations (train)",
+  "manifest": "s3://ego4d-consortium-sharing/public/v1/full_scale/manifest.csv",
   "videos": [
     {
-      "video_uid": "d250521e-5197-44aa-8baa-2f42b24444d2",
-      "clips": [
-        {
-          "clip_uid": "fae92e70-88aa-4b77-b41a-5879b74c804c",
-          "video_start_sec": 0.0210286,
-          "video_end_sec": 480.0210286,
-          "annotations": [
-            {
-              "language_queries": [
-                {
-                  "clip_start_sec": 0.0,
-                  "clip_end_sec": 43.6657,
-                  "query": "How many frying pans can I see on the shelf?",
-                  "template": "Objects: How many X’s? (quantity question)"
-                }
-              ],
-              "annotation_uid": "f3083484-a6c0-45cb-a40c-b1c2cb470443"
-            }
-          ]
-        }
-      ]
+      "video_uid":"d250521e-5197-44aa-8baa-2f42b24444d2",
+      "clips":[
+         {
+           "clip_uid":"fae92e70-88aa-4b77-b41a-5879b74c804c",
+           "video_start_sec":0.0210286,
+           "video_end_sec":480.0210286,
+           "video_start_frame":1,
+           "video_end_frame":14401,
+           "clip_start_sec":0,
+           "clip_end_sec":480.0,
+           "clip_start_frame":0,
+           "clip_end_frame":14400,
+           "source_clip_uid":"51e04dae-3ad0-48c1-b94b-c3ba0edaa99e",
+           "annotations":[
+             {
+               "language_queries":[
+                 {
+                   "clip_start_sec":0.0,
+                   "clip_end_sec":43.6657,
+                   "video_start_sec":0.0210286,
+                   "video_end_sec":43.6867286,
+                   "video_start_frame":1,
+                   "video_end_frame":1311,
+                   "template":"Objects: How many X’s? (quantity question)",
+                   "query":"How many frying pans can i see on the shelf?",
+                   "slot_x":"frying pans",
+                   "verb_x":"[verb_not_applicable]",
+                   "slot_y":"i See on the shelf",
+                   "verb_y":"see",
+                   "raw_tags":[
+                     "Objects: How many X’s? (quantity question)",
+                     "How many frying pans can i see on the shelf?",
+                     "frying pans",
+                     "[verb_not_applicable]",
+                     "i See on the shelf",
+                     "see"
+                   ]
+                 }
+               ],
+               "annotation_uid": "f3083484-a6c0-45cb-a40c-b1c2cb470443"
+             }
+           ]
+         }
+       ],
+      "split": "train"
     }
   ]
 }
@@ -89,12 +114,22 @@ The NLQ (Natural Language Queries) dataset in the EGO4D benchmark contains appro
   "version": "1",
   "date": "220216",
   "description": "NLQ Annotations (test unannotated)",
+  "manifest": "s3://ego4d-consortium-sharing/public/v1/full_scale/manifest.csv",
   "videos": [
     {
       "video_uid": "c9c44dea-c37b-461d-aa14-20e934126df5",
       "clips": [
         {
           "clip_uid": "a603669a-57f9-4db4-8a81-0a6720946d45",
+          "video_start_sec": 1489.0943619333332,
+          "video_end_sec": 1969.1310359242186,
+          "video_start_frame": 66429,
+          "video_end_frame": 66429,
+          "clip_start_sec": 0,
+          "clip_end_sec": 480.03667399088545,
+          "clip_start_frame": 0,
+          "clip_end_frame": 14401,
+          "source_clip_uid": "4ee7dc88-3d7f-4607-a110-9419fb0eb93d",
           "annotations": [
             {
               "language_queries": [
@@ -105,7 +140,8 @@ The NLQ (Natural Language Queries) dataset in the EGO4D benchmark contains appro
             }
           ]
         }
-      ]
+      ],
+      "split": "test"
     }
   ]
 }
