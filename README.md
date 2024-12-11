@@ -10,7 +10,7 @@ This project leverages the **Ego4D NLQ benchmark** to process egocentric video d
     - [Hierarchical Structure](#hierarchical-structure)
     - [Key Attributes](#key-attributes)
     - [JSON input Dataset Snippets](#json-input-dataset-snippets)
-2. [Plots and Analysis of the Ego4D Dataset](#plots-and-analysis-of-the-ego4d-dataset)
+2. [Plots and Analysis of Ego4D Dataset and NLQ benchmark train annotations](#plots-and-analysis-of-ego4d-dataset-and-nlq-benchmark-train-annotations)
     - [1. Template Distribution](#1-template-distribution)
     - [2. Clip Duration Distribution (+ Stats)](#2-clip-duration-distribution--stats)
     - [3. Answer Segment Duration Distribution (+ Stats)](#3-answer-segment-duration-distribution--stats)
