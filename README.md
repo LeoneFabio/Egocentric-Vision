@@ -1,7 +1,31 @@
 # Egocentric-Vision
+
 This project leverages the **Ego4D NLQ benchmark** to process egocentric video data using **VSLNet**, predicting start/end timestamps of answers for input queries. It extends this with a **videoQA model** for generating textual answers, enabling deeper interaction with egocentric video and natural language tasks.
 
-## Overview of NLQ benchmark annotations
+---
+
+## Table of Contents
+
+1. [Overview of the NLQ Benchmark Annotations](#overview-of-the-nlq-benchmark-annotations)
+    - [Hierarchical Structure](#hierarchical-structure)
+    - [Key Attributes](#key-attributes)
+    - [JSON input Dataset Snippets](#json-input-dataset-snippets)
+2. [Plots and Analysis of the Ego4D Dataset](#plots-and-analysis-of-the-ego4d-dataset)
+    - [1. Template Distribution](#1-template-distribution)
+    - [2. Clip Duration Distribution (+ Stats)](#2-clip-duration-distribution--stats)
+    - [3. Answer Segment Duration Distribution (+ Stats)](#3-answer-segment-duration-distribution--stats)
+    - [4. Answer vs. Clip Durations](#4-answer-vs-clip-durations)
+    - [5. Average Answer Durations by Template](#5-average-answer-durations-by-template)
+    - [6. Relative Position of Answer Start and End](#6-relative-position-of-answer-start-and-end)
+    - [7. Answer Start and End (along the Clip) Distribution](#7-answer-start-and-end-along-the-clip-distribution)
+    - [8. Number of Queries per Scenario (+ Stats)](#8-number-of-queries-per-scenario--stats)
+    - [9. Average Answer Durations per Scenario (+ Stats)](#9-average-answer-durations-per-scenario--stats)
+    - [10. Query Template Distribution Across Scenarios](#10-query-template-distribution-across-scenarios)
+
+
+---
+
+## Overview of the NLQ Benchmark Annotations
 
 The Ego4D dataset in the NLQ (Natural Language Queries) benchmark contains approximately 19,000 annotated queries derived from around 227 hours of videos. These annotations are structured hierarchically and provide detailed metadata for fine-grained video understanding tasks. Below is a summary of the dataset structure and key components.
 
@@ -33,7 +57,7 @@ The Ego4D dataset in the NLQ (Natural Language Queries) benchmark contains appro
   - Queries are structured using 13 templates across three categories:
     1. **Objects**: E.g., *"What X did I Y?"*, *"Where is object X before/after event Y?"*
     2. **Place**: E.g., *"Where did I put X?"*
-    3. **People**: E.g., *"Who did I interact with whren I did activity X?"*
+    3. **People**: E.g., *"Who did I interact with when I did activity X?"*
 
 - **Timestamps**:
   - Each query is annotated with start and end times in two contexts:
@@ -47,7 +71,7 @@ The Ego4D dataset in the NLQ (Natural Language Queries) benchmark contains appro
 - Annotations ensure fine-grained alignment of language tasks to video segments.
 - The `test_unannotated.json` file contains only the queries without additional temporal or structural metadata for benchmarking.
 
-### Example JSON Snippet
+### JSON input Dataset Snippets
 
 #### Annotated (Training) File:
 ```json
