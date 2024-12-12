@@ -171,7 +171,7 @@ The Ego4D dataset in the NLQ (Natural Language Queries) benchmark contains appro
 }
 ```
 
-<br>
+---
 
 ## Plots and Analysis of Ego4D dataset and NLQ benchmark train annotations
 
@@ -223,5 +223,5 @@ The Ego4D dataset in the NLQ (Natural Language Queries) benchmark contains appro
 - **Description:** Illustrates the frequency distribution of query templates across different scenarios.
 - **Plot Type:** Heatmap.
 
-
+---
 
