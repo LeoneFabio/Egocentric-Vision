@@ -1,0 +1,252 @@
+[
+    {
+        "video_name": "5726971c-b3cc-43ed-8071-f6ee143e417d_0_14.mp4",
+        "user_question": "Where is the soap?",
+        "ground_truth": "The soap is on the shelf near the sink."
+    },
+    {
+        "video_name": "5d531ac1-010a-4e67-ba1a-96e485b14968_0_37.mp4",
+        "user_question": "What vegetables did I chop?",        
+        "ground_truth": "You chopped celery or cabbage"
+    },
+    {
+        "video_name": "1731de62-b1b9-4b84-bd55-412cd67e9b3c_0_18.mp4",
+        "user_question": "What food did I eat?",
+        "ground_truth": "You ate a meal consisting of rice or noodles mixed with minced meat or eggs, accompanied by a side of orange fries, likely sweet potato fries."
+    },
+    {
+        "video_name": "9093c341-5f95-4402-a2dd-6a84aa42bf1f_0_45.mp4",
+        "user_question": "What did I put in the bowl?",
+        "ground_truth": "You put building adhesive in the bowl."
+    },
+    {
+        "video_name": "ab094ea2-9251-4f10-945b-c2ab00c5282e_0_7.mp4",
+        "user_question": "where did i put my phone?",
+        "ground_truth": "You've put your phone down on the kitchen peninsula."
+    },
+    {
+        "video_name": "b8654118-84a4-4167-83c9-f268cc15f7b2_0_26.mp4",
+        "user_question": "What tool did I use on the machine first?",
+        "ground_truth": "The first tool used on the machine was a screwdriver."
+    },
+    {
+        "video_name": "75d3fc52-3776-47d4-b7fd-8074d30b06d1_131_180.mp4",
+        "user_question": "What did I put in the dish?",
+        "ground_truth": "You put mushrooms with a sauce/oil or various seasonings in the dish."
+    },
+    {
+        "video_name": "4ba774a8-cd2a-4889-9971-cc91f5c1afd4_11_15.mp4",
+        "user_question": "Where was the egg before I picked it?",
+        "ground_truth": "The egg was inside a carton in the fridge "
+    },
+    {
+        "video_name": "1731de62-b1b9-4b84-bd55-412cd67e9b3c_41_56.mp4",
+        "user_question": "What did I pour in the mug?",
+        "ground_truth": "You poured water in the mug."
+    },
+    {
+        "video_name": "88dcb32f-a537-47de-b3bf-f9149352bbb9_232_242.mp4",
+        "user_question": "Who did I talk to at the workshop?",
+        "assistant_answer": "It seems like you were talking to a customer at the workshop."
+    },
+    {
+        "video_name": "3672773c-6ff8-47c2-9ef9-bb00c65814ef_0_67.mp4",
+        "user_question": "what did l put in the bucket?",
+        "ground_truth": "You put flour in the bucket."
+    },
+    {
+        "video_name": "cab983c1-d36e-4afa-8116-1e2bde4a4a4c_101_116.mp4",
+        "user_question": "In what location did i see the car?",
+        "ground_truth": "You see a car in a setting that looks like a desert landscape."
+    },
+    {
+        "video_name": "2237fc47-e8c9-4751-9b02-6189913b4b4d_0_3.mp4",
+        "user_question": "Where is round brush before picked?",
+        "ground_truth": "The round brush is near the stairs before being picked."
+    },
+    {
+        "video_name": "49931037-b822-4c7b-baf4-4626c1e6b6ea_41_153.mp4",
+        "user_question": "Where did I wash the rice?",
+        "ground_truth": "You washed the rice in the sink."
+    },
+    {
+        "video_name": "96453857-2454-418f-bbd6-3f5f8b3eadbd_112_123.mp4",
+        "user_question": "What did I take from the fridge?",
+        "ground_truth": "You took out some kind of bottled beverage."
+    },
+    {
+        "video_name": "86c3b190-a57a-4b88-a3be-4d8d47c8d867_408_476.mp4",
+        "user_question": "where did  put the clothe before l hanged them?",
+        "ground_truth": "You put the clothes on the couch before hanging them."
+    },
+    {
+        "video_name": "bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e_15_60.mp4",
+        "user_question": "How many doughs did i apply egg on?",
+        "ground_truth": "You applied egg to ten doughs."
+    },
+    {
+        "video_name": "ca304360-2402-4241-a6eb-5ff2f300546f_0_56.mp4",
+        "user_question": "how many clothes did I fold?",
+        "ground_truth": "You folded four pieces of clothing."
+    },
+    {
+        "video_name": "45d01186-d09a-408c-a00d-481a2d8d9749_161_172.mp4",
+        "user_question": "what napkin did I clean my hands with?",
+        "ground_truth": "The napkin you cleaned your hands with is the one that is red and white with a blue stripe pattern."
+    },
+    {
+        "video_name": "777c1b42-df62-4db8-97d1-3b0ba02532fa_382_393.mp4",
+        "user_question": "How many fuse holders did I pick from the box?",
+        "ground_truth": "you have picked seven fuse holders from the box."
+    },
+    {
+        "video_name": "085f7a8b-e1e5-4e7b-a83d-5ea650edd9fe_22_41.mp4",
+        "user_question": "What did I put on the dog?",
+        "ground_truth": "You put the leash collar on the dog."
+    },
+    {
+        "video_name": "1c865785-9ac6-4f16-baa4-97405aacad6a_266_273.mp4",
+        "user_question": "what did l take in the fridge?",
+        "ground_truth": "You took an ice pack from the fridge."
+    },
+    {
+        "video_name": "8a855547-3574-4e67-a7ac-41b072984e3b_255_262.mp4",
+        "user_question": "How many tools did I remove from the bag?",
+        "ground_truth": "You removed a total of two tools from the bag."
+    },
+    {
+        "video_name": "8e701bd2-1489-4d3c-97ff-b8cd9279ed81_247_255.mp4",
+        "user_question": "Where were the papers before I put them in the empty box?",
+        "ground_truth": "The papers were on the floor."
+    },
+    {
+        "video_name": "b9cd86ff-d01f-4faa-9d2b-c53799e47273_254_264.mp4",
+        "user_question": "How many nuts did I pick from the black plastic material?",
+        "ground_truth": "It's not possible to determine the exact number of nuts from the image provided"
+    },
+    {
+        "video_name": "ab094ea2-9251-4f10-945b-c2ab00c5282e_240_247.mp4",
+        "user_question": "what did i put in the cooking pot?",
+        "ground_truth": "It appears to be a dish with some kind of meat and carrot."
+    },
+    {
+        "video_name": "d37ab6fe-4f57-41ef-b6ff-cb193be15303_157_164.mp4",
+        "user_question": "where was the refrigerator?",
+        "ground_truth": "The refrigerator was under the window."
+    },
+    {
+        "video_name": "b5ae8df0-4825-4021-a01a-722947019865_281_285.mp4",
+        "user_question": "What color is the paper I moved with my right hand?",
+        "ground_truth": "Youe moved a white paper with your right hand."
+    },
+    {
+        "video_name": "f04e8671-a8f1-4bf8-965b-38f45679ac0a_355_359.mp4",
+        "user_question": "What color was the jacket hanged on the wall?",
+        "ground_truth": "The jacket hanged on the wall was military green."
+    },
+    {
+        "video_name": "53c86be4-190d-4410-8750-179a7edc70b3_1021_1050.mp4",
+        "user_question": "Did I leave the tap open?",
+        "ground_truth": "No, you didn't leave the tap open."
+    },
+    {
+        "video_name": "c664f078-9b34-4a58-b949-180ac4bc0980_112_138.mp4",
+        "user_question": "How many tools where in the bucket?",
+        "ground_truth": "There were ten items in the bucket"
+    },
+    {
+        "video_name": "414c7414-17a2-4a2f-a07b-b2d34c454790_38_44.mp4",
+        "user_question": "Where is the hand sanitizer?",
+        "ground_truth": "The hand sanitizer was in the dispenser next to the entrance door of the store."
+    },
+    {
+        "video_name": "2bbc6cdf-b662-498e-9a9f-231dd5ac2a9e_0_3.mp4",
+        "user_question": "Where did I put the wire?",
+        "assistant_answer": "You put the wire on top of the GoPro box."
+    },
+    {
+        "video_name": "725162f4-4636-469e-b880-829a2ad58c8a_0_3.mp4",
+        "user_question": "Who did I interact with when I was standing?",
+        "ground_truth": "It is not possible to determine who you were interacting with while standing."
+    },
+    {
+        "video_name": "6d282ccf-931e-4ee3-a57e-f12447af2f2d_135_138.mp4",
+        "user_question": "What did I throw in the green bucket?",
+        "ground_truth": "It looks like you threw a tube or some mechanical part in the green bucket."
+    },
+    {
+        "video_name": "12babcc1-a848-4882-869e-b6e8cc963c2c_11_18.mp4",
+        "user_question": "what did i pour in the pan?",
+        "ground_truth": "It looks like you poured a liquid similar to water in the pan."
+    },
+    {
+        "video_name": "d2b7d331-4617-45db-a339-80afb7e25741_11_41.mp4",
+        "user_question": "where is the rice cooker?",
+        "ground_truth": "The rice cooker is on a small cabinet next to a kettle."
+    },
+    {
+        "video_name": "6a33bd7d-1514-4364-a09b-6771d46b58f0_0_97.mp4",
+        "user_question": "what did l put in the wood plank?",
+        "ground_truth": "You put a wood chisel (or carving tool) in the wood plank, using a hammer to strike it."
+    },
+    {
+        "video_name": "5b86c54c-51bd-4cee-9c53-4aba881772d0_120_127.mp4",
+        "user_question": "What color was the pickup track along the road?",
+        "ground_truth": "The pickup truck track along the road is white."
+    },
+    {
+        "video_name": "c7873f07-7b9c-4794-9a56-fdebeeceee68_461_480.mp4",
+        "user_question": "Who did I talk to in the parking lot?",
+        "ground_truth": "You were talking to the woman who parked her car in front in the wrong way."
+    },
+    {
+        "video_name": "58fa07ae-2992-4dc9-842a-e5a73ee3d345_67_82.mp4",
+        "user_question": "What object did I light",
+        "assistant_answer": "You lit a piece of paper or newspaper."
+    },
+    {
+        "video_name": "3231822a-fc8b-4207-b0b8-5cbb1344cb2f_7_18.mp4",
+        "user_question": "What kitchen tool did I cut the springer onions with?",
+        "ground_truth": "You used a large chef's knife to cut the spring onions."
+    },
+    {
+        "video_name": "a40dce18-488d-4acc-b754-fcd56c204db1_0_183.mp4",
+        "user_question": "How many onions was chopped?",
+        "ground_truth": "two half onions"
+    },
+    {
+        "video_name": "da0092ba-0247-4438-9172-4f60f00be608_127_138.mp4",
+        "user_question": "How many spoons where in the cooking pot?",
+        "ground_truth": "There is one spoon in the cooking pot."
+    },
+    {
+        "video_name": "a690c387-fc3c-4596-9ec5-42496139d90b_202_206.mp4",
+        "user_question": "where did i open the door",
+        "ground_truth": "You opened the door outward, where it seems there is a garden."
+    },
+    {
+        "video_name": "e5e98fec-82b8-4401-9a7a-42eae3f51e55_258_265.mp4",
+        "user_question": "What did I pour in the sink?",
+        "ground_truth": "You poured water in the sink."
+    },
+    {
+        "video_name": "5f70709f-d1a7-44ce-ade8-266a8cd41443_6_13.mp4",
+        "user_question": "What color were the eggs I mixed?",
+        "ground_truth": "The eggs you mixed were orange and yellow."
+    },
+    {
+        "video_name": "b810fff6-0df0-479a-b58c-012e42e4f7b3_202_210.mp4",
+        "user_question": "Where was the set of pins before i picked it?",
+        "ground_truth": "The set of pins was in the tool drawer under the workbench before you picked it."
+    },
+    {
+        "video_name": "751201ad-5397-4956-a4f2-d73fb969b6c5_161_165.mp4",
+        "user_question": "In what drawer did I see the screwdrivers?",
+        "ground_truth": "You saw the screwdrivers in the second-top drawer."
+    },
+    {
+        "video_name": "a18c5454-8d7f-4380-944a-21854635d7f9_253_262.mp4",
+        "user_question": "Where did I put tile cutter?",
+        "ground_truth": "The tile cutter appears to be resting on a wooden surface that is placed on the floor,"
+    }
+]
