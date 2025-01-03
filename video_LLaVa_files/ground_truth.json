@@ -47,7 +47,7 @@
     {
         "video_name": "88dcb32f-a537-47de-b3bf-f9149352bbb9_232_242.mp4",
         "user_question": "Who did I talk to at the workshop?",
-        "assistant_answer": "It seems like you were talking to a customer at the workshop."
+        "ground_truth": "It seems like you were talking to a customer at the workshop."
     },
     {
         "video_name": "3672773c-6ff8-47c2-9ef9-bb00c65814ef_0_67.mp4",
@@ -162,7 +162,7 @@
     {
         "video_name": "2bbc6cdf-b662-498e-9a9f-231dd5ac2a9e_0_3.mp4",
         "user_question": "Where did I put the wire?",
-        "assistant_answer": "You put the wire on top of the GoPro box."
+        "ground_truth": "You put the wire on top of the GoPro box."
     },
     {
         "video_name": "725162f4-4636-469e-b880-829a2ad58c8a_0_3.mp4",
@@ -202,7 +202,7 @@
     {
         "video_name": "58fa07ae-2992-4dc9-842a-e5a73ee3d345_67_82.mp4",
         "user_question": "What object did I light",
-        "assistant_answer": "You lit a piece of paper or newspaper."
+        "ground_truth": "You lit a piece of paper or newspaper."
     },
     {
         "video_name": "3231822a-fc8b-4207-b0b8-5cbb1344cb2f_7_18.mp4",
