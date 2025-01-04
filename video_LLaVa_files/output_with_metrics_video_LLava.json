@@ -1,0 +1,752 @@
+[
+    {
+        "id": 1,
+        "video_name": "5726971c-b3cc-43ed-8071-f6ee143e417d_0_14.mp4",
+        "user_question": "Where is the soap?",
+        "assistant_answer": "The soap is located in the sink.",
+        "ground_truth": "The soap is on the shelf near the sink.",
+        "metrics": {
+            "sacrebleu": 0.26924761780320433,
+            "rouge1": 0.6250000000000001,
+            "rouge2": 0.42857142857142855,
+            "rougeL": 0.6250000000000001,
+            "bertscore": 0.9567143321037292,
+            "meteor": 0.5739795918367346
+        }
+    },
+    {
+        "id": 2,
+        "video_name": "5d531ac1-010a-4e67-ba1a-96e485b14968_0_37.mp4",
+        "user_question": "What vegetables did I chop?",
+        "assistant_answer": "You chopped a head of lettuce and a piece of broccoli.",
+        "ground_truth": "You chopped celery or cabbage",
+        "metrics": {
+            "sacrebleu": 0.06772997136689071,
+            "rouge1": 0.25000000000000006,
+            "rouge2": 0.14285714285714288,
+            "rougeL": 0.25000000000000006,
+            "bertscore": 0.8798644542694092,
+            "meteor": 0.3289473684210526
+        }
+    },
+    {
+        "id": 3,
+        "video_name": "1731de62-b1b9-4b84-bd55-412cd67e9b3c_0_18.mp4",
+        "user_question": "What food did I eat?",
+        "assistant_answer": "The person in the video ate a plate of food, which included a sandwich and a bowl of food.",
+        "ground_truth": "You ate a meal consisting of rice or noodles mixed with minced meat or eggs, accompanied by a side of orange fries, likely sweet potato fries.",
+        "metrics": {
+            "sacrebleu": 0.03394201704566131,
+            "rouge1": 0.2222222222222222,
+            "rouge2": 0.046511627906976744,
+            "rougeL": 0.2222222222222222,
+            "bertscore": 0.8661405444145203,
+            "meteor": 0.12411347517730496
+        }
+    },
+    {
+        "id": 4,
+        "video_name": "9093c341-5f95-4402-a2dd-6a84aa42bf1f_0_45.mp4",
+        "user_question": "What did I put in the bowl?",
+        "assistant_answer": "The man in the video is using a power tool to mix cement in a large bowl.",
+        "ground_truth": "You put building adhesive in the bowl.",
+        "metrics": {
+            "sacrebleu": 0.06074588070876682,
+            "rouge1": 0.25,
+            "rouge2": 0.09090909090909091,
+            "rougeL": 0.25,
+            "bertscore": 0.8904568552970886,
+            "meteor": 0.3506944444444445
+        }
+    },
+    {
+        "id": 5,
+        "video_name": "ab094ea2-9251-4f10-945b-c2ab00c5282e_0_7.mp4",
+        "user_question": "where did i put my phone?",
+        "assistant_answer": "The person holding the cell phone is standing in a kitchen.",
+        "ground_truth": "You've put your phone down on the kitchen peninsula.",
+        "metrics": {
+            "sacrebleu": 0.04789232204309912,
+            "rouge1": 0.28571428571428564,
+            "rouge2": 0.0,
+            "rougeL": 0.1904761904761905,
+            "bertscore": 0.8787952661514282,
+            "meteor": 0.18018018018018017
+        }
+    },
+    {
+        "id": 6,
+        "video_name": "b8654118-84a4-4167-83c9-f268cc15f7b2_0_26.mp4",
+        "user_question": "What tool did I use on the machine first?",
+        "assistant_answer": "The man used a wrench to unscrew the machine first.",
+        "ground_truth": "The first tool used on the machine was a screwdriver.",
+        "metrics": {
+            "sacrebleu": 0.10252286118120933,
+            "rouge1": 0.6,
+            "rouge2": 0.1111111111111111,
+            "rougeL": 0.4000000000000001,
+            "bertscore": 0.9175273776054382,
+            "meteor": 0.4359925788497217
+        }
+    },
+    {
+        "id": 7,
+        "video_name": "75d3fc52-3776-47d4-b7fd-8074d30b06d1_131_180.mp4",
+        "user_question": "What did I put in the dish?",
+        "assistant_answer": "The person in the video is seen putting food into a dish.",
+        "ground_truth": "You put mushrooms with a sauce/oil or various seasonings in the dish.",
+        "metrics": {
+            "sacrebleu": 0.07921066269168085,
+            "rouge1": 0.32,
+            "rouge2": 0.08695652173913043,
+            "rougeL": 0.24000000000000002,
+            "bertscore": 0.8645470142364502,
+            "meteor": 0.3931623931623932
+        }
+    },
+    {
+        "id": 8,
+        "video_name": "4ba774a8-cd2a-4889-9971-cc91f5c1afd4_11_15.mp4",
+        "user_question": "Where was the egg before I picked it?",
+        "assistant_answer": "The egg was in the refrigerator before you picked it.",
+        "ground_truth": "The egg was inside a carton in the fridge ",
+        "metrics": {
+            "sacrebleu": 0.17542198478193427,
+            "rouge1": 0.5263157894736842,
+            "rouge2": 0.35294117647058826,
+            "rougeL": 0.5263157894736842,
+            "bertscore": 0.913838267326355,
+            "meteor": 0.5260869565217392
+        }
+    },
+    {
+        "id": 9,
+        "video_name": "1731de62-b1b9-4b84-bd55-412cd67e9b3c_41_56.mp4",
+        "user_question": "What did I pour in the mug?",
+        "assistant_answer": "You poured coffee into the mug.",
+        "ground_truth": "You poured water in the mug.",
+        "metrics": {
+            "sacrebleu": 0.30739407647563216,
+            "rouge1": 0.6666666666666666,
+            "rouge2": 0.4000000000000001,
+            "rougeL": 0.6666666666666666,
+            "bertscore": 0.9696506857872009,
+            "meteor": 0.6914285714285714
+        }
+    },
+    {
+        "id": 10,
+        "video_name": "88dcb32f-a537-47de-b3bf-f9149352bbb9_232_242.mp4",
+        "user_question": "Who did I talk to at the workshop?",
+        "assistant_answer": "You talked to a man at the workshop.",
+        "ground_truth": "It seems like you were talking to a customer at the workshop.",
+        "metrics": {
+            "sacrebleu": 0.2275857642217292,
+            "rouge1": 0.6,
+            "rouge2": 0.33333333333333326,
+            "rougeL": 0.6,
+            "bertscore": 0.9149078726768494,
+            "meteor": 0.6181795634920636
+        }
+    },
+    {
+        "id": 11,
+        "video_name": "3672773c-6ff8-47c2-9ef9-bb00c65814ef_0_67.mp4",
+        "user_question": "what did l put in the bucket?",
+        "assistant_answer": "The person put a white bucket in the bag.",
+        "ground_truth": "You put flour in the bucket.",
+        "metrics": {
+            "sacrebleu": 0.10552670315936317,
+            "rouge1": 0.5333333333333333,
+            "rouge2": 0.15384615384615385,
+            "rougeL": 0.4,
+            "bertscore": 0.9161686897277832,
+            "meteor": 0.5095890410958904
+        }
+    },
+    {
+        "id": 12,
+        "video_name": "cab983c1-d36e-4afa-8116-1e2bde4a4a4c_101_116.mp4",
+        "user_question": "In what location did i see the car?",
+        "assistant_answer": "The car is parked in a parking lot...",
+        "ground_truth": "You see a car in a setting that looks like a desert landscape.",
+        "metrics": {
+            "sacrebleu": 0.06786053138365654,
+            "rouge1": 0.2857142857142857,
+            "rouge2": 0.10526315789473685,
+            "rougeL": 0.2857142857142857,
+            "bertscore": 0.8767876625061035,
+            "meteor": 0.14814814814814814
+        }
+    },
+    {
+        "id": 13,
+        "video_name": "2237fc47-e8c9-4751-9b02-6189913b4b4d_0_3.mp4",
+        "user_question": "Where is round brush before picked?",
+        "assistant_answer": "The round brush was before picked up by the person.",
+        "ground_truth": "The round brush is near the stairs before being picked.",
+        "metrics": {
+            "sacrebleu": 0.17242221289766627,
+            "rouge1": 0.6,
+            "rouge2": 0.2222222222222222,
+            "rougeL": 0.5,
+            "bertscore": 0.9185814261436462,
+            "meteor": 0.520408163265306
+        }
+    },
+    {
+        "id": 14,
+        "video_name": "49931037-b822-4c7b-baf4-4626c1e6b6ea_41_153.mp4",
+        "user_question": "Where did I wash the rice?",
+        "assistant_answer": "You washed the rice in a sink.",
+        "ground_truth": "You washed the rice in the sink.",
+        "metrics": {
+            "sacrebleu": 0.5946035575013611,
+            "rouge1": 0.8571428571428571,
+            "rouge2": 0.6666666666666666,
+            "rougeL": 0.8571428571428571,
+            "bertscore": 0.9848264455795288,
+            "meteor": 0.7933673469387754
+        }
+    },
+    {
+        "id": 15,
+        "video_name": "96453857-2454-418f-bbd6-3f5f8b3eadbd_112_123.mp4",
+        "user_question": "What did I take from the fridge?",
+        "assistant_answer": "You took a bottle of beer from the fridge.",
+        "ground_truth": "You took out some kind of bottled beverage.",
+        "metrics": {
+            "sacrebleu": 0.09980099403873663,
+            "rouge1": 0.35294117647058826,
+            "rouge2": 0.13333333333333333,
+            "rougeL": 0.35294117647058826,
+            "bertscore": 0.9188472032546997,
+            "meteor": 0.40879120879120884
+        }
+    },
+    {
+        "id": 16,
+        "video_name": "86c3b190-a57a-4b88-a3be-4d8d47c8d867_408_476.mp4",
+        "user_question": "where did  put the clothe before l hanged them?",
+        "assistant_answer": "The person put the clothing on the rack before hanging them.",
+        "ground_truth": "You put the clothes on the couch before hanging them.",
+        "metrics": {
+            "sacrebleu": 0.28646290158800986,
+            "rouge1": 0.6666666666666666,
+            "rouge2": 0.4210526315789474,
+            "rougeL": 0.6666666666666666,
+            "bertscore": 0.9602939486503601,
+            "meteor": 0.8063619174730285
+        }
+    },
+    {
+        "id": 17,
+        "video_name": "bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e_15_60.mp4",
+        "user_question": "How many doughs did i apply egg on?",
+        "assistant_answer": "You applied egg on 10 doughs.",
+        "ground_truth": "You applied egg to ten doughs.",
+        "metrics": {
+            "sacrebleu": 0.30739407647563216,
+            "rouge1": 0.6666666666666666,
+            "rouge2": 0.4000000000000001,
+            "rougeL": 0.6666666666666666,
+            "bertscore": 0.9911872744560242,
+            "meteor": 0.8412698412698414
+        }
+    },
+    {
+        "id": 18,
+        "video_name": "ca304360-2402-4241-a6eb-5ff2f300546f_0_56.mp4",
+        "user_question": "how many clothes did I fold?",
+        "assistant_answer": "The person folded 10 clothes in the suitcase.",
+        "ground_truth": "You folded four pieces of clothing.",
+        "metrics": {
+            "sacrebleu": 0.05669791110976001,
+            "rouge1": 0.14285714285714288,
+            "rouge2": 0.0,
+            "rougeL": 0.14285714285714288,
+            "bertscore": 0.9309599995613098,
+            "meteor": 0.20833333333333331
+        }
+    },
+    {
+        "id": 19,
+        "video_name": "45d01186-d09a-408c-a00d-481a2d8d9749_161_172.mp4",
+        "user_question": "what napkin did I clean my hands with?",
+        "assistant_answer": "The person is holding a blue plaid cloth in their hand, which they used to clean their hands.",
+        "ground_truth": "The napkin you cleaned your hands with is the one that is red and white with a blue stripe pattern.",
+        "metrics": {
+            "sacrebleu": 0.04793738461810042,
+            "rouge1": 0.2631578947368421,
+            "rouge2": 0.05555555555555555,
+            "rougeL": 0.2105263157894737,
+            "bertscore": 0.8873853087425232,
+            "meteor": 0.22946977834195878
+        }
+    },
+    {
+        "id": 20,
+        "video_name": "777c1b42-df62-4db8-97d1-3b0ba02532fa_382_393.mp4",
+        "user_question": "How many fuse holders did I pick from the box?",
+        "assistant_answer": "I picked two fuse holders from the box.",
+        "ground_truth": "you have picked seven fuse holders from the box.",
+        "metrics": {
+            "sacrebleu": 0.5462757644646493,
+            "rouge1": 0.7058823529411765,
+            "rouge2": 0.5333333333333333,
+            "rougeL": 0.7058823529411765,
+            "bertscore": 0.9771748185157776,
+            "meteor": 0.6988249845392702
+        }
+    },
+    {
+        "id": 21,
+        "video_name": "085f7a8b-e1e5-4e7b-a83d-5ea650edd9fe_22_41.mp4",
+        "user_question": "What did I put on the dog?",
+        "assistant_answer": "You put a yellow collar on the dog.",
+        "ground_truth": "You put the leash collar on the dog.",
+        "metrics": {
+            "sacrebleu": 0.5133450480401706,
+            "rouge1": 0.75,
+            "rouge2": 0.5714285714285714,
+            "rougeL": 0.75,
+            "bertscore": 0.9664252996444702,
+            "meteor": 0.7687074829931974
+        }
+    },
+    {
+        "id": 22,
+        "video_name": "1c865785-9ac6-4f16-baa4-97405aacad6a_266_273.mp4",
+        "user_question": "what did l take in the fridge?",
+        "assistant_answer": "I took a picture of the fridge and the kitchen.",
+        "ground_truth": "You took an ice pack from the fridge.",
+        "metrics": {
+            "sacrebleu": 0.08913765521398126,
+            "rouge1": 0.33333333333333326,
+            "rouge2": 0.125,
+            "rougeL": 0.33333333333333326,
+            "bertscore": 0.9112386107444763,
+            "meteor": 0.21739130434782605
+        }
+    },
+    {
+        "id": 23,
+        "video_name": "8a855547-3574-4e67-a7ac-41b072984e3b_255_262.mp4",
+        "user_question": "How many tools did I remove from the bag?",
+        "assistant_answer": "The man removed two tools from the bag.",
+        "ground_truth": "You removed a total of two tools from the bag.",
+        "metrics": {
+            "sacrebleu": 0.4888290318657944,
+            "rouge1": 0.6666666666666665,
+            "rouge2": 0.5,
+            "rougeL": 0.6666666666666665,
+            "bertscore": 0.9544242024421692,
+            "meteor": 0.6405895691609977
+        }
+    },
+    {
+        "id": 24,
+        "video_name": "8e701bd2-1489-4d3c-97ff-b8cd9279ed81_247_255.mp4",
+        "user_question": "Where were the papers before I put them in the empty box?",
+        "assistant_answer": "The papers were on the floor before the man put them in the empty box.",
+        "ground_truth": "The papers were on the floor.",
+        "metrics": {
+            "sacrebleu": 0.31314224813827346,
+            "rouge1": 0.5714285714285715,
+            "rouge2": 0.5263157894736842,
+            "rougeL": 0.5714285714285715,
+            "bertscore": 0.9352561831474304,
+            "meteor": 0.7246189615086541
+        }
+    },
+    {
+        "id": 25,
+        "video_name": "b9cd86ff-d01f-4faa-9d2b-c53799e47273_254_264.mp4",
+        "user_question": "How many nuts did I pick from the black plastic material?",
+        "assistant_answer": "I picked 2 nuts from the black plastic material.",
+        "ground_truth": "It's not possible to determine the exact number of nuts from the image provided",
+        "metrics": {
+            "sacrebleu": 0.10470197811644794,
+            "rouge1": 0.25,
+            "rouge2": 0.18181818181818182,
+            "rougeL": 0.25,
+            "bertscore": 0.8766769766807556,
+            "meteor": 0.20306513409961682
+        }
+    },
+    {
+        "id": 26,
+        "video_name": "ab094ea2-9251-4f10-945b-c2ab00c5282e_240_247.mp4",
+        "user_question": "what did i put in the cooking pot?",
+        "assistant_answer": "The person in the image is cooking carrots in a large pot.",
+        "ground_truth": "It appears to be a dish with some kind of meat and carrot.",
+        "metrics": {
+            "sacrebleu": 0.03401542618686438,
+            "rouge1": 0.08,
+            "rouge2": 0.0,
+            "rougeL": 0.08,
+            "bertscore": 0.8881869912147522,
+            "meteor": 0.14388489208633093
+        }
+    },
+    {
+        "id": 27,
+        "video_name": "d37ab6fe-4f57-41ef-b6ff-cb193be15303_157_164.mp4",
+        "user_question": "where was the refrigerator?",
+        "assistant_answer": "The refrigerator was in the kitchen.",
+        "ground_truth": "The refrigerator was under the window.",
+        "metrics": {
+            "sacrebleu": 0.2777619034011791,
+            "rouge1": 0.6666666666666666,
+            "rouge2": 0.4000000000000001,
+            "rougeL": 0.6666666666666666,
+            "bertscore": 0.950230062007904,
+            "meteor": 0.6371428571428571
+        }
+    },
+    {
+        "id": 28,
+        "video_name": "b5ae8df0-4825-4021-a01a-722947019865_281_285.mp4",
+        "user_question": "What color is the paper I moved with my right hand?",
+        "assistant_answer": "The paper you moved with your right hand is white.",
+        "ground_truth": "Youe moved a white paper with your right hand.",
+        "metrics": {
+            "sacrebleu": 0.27901593935858265,
+            "rouge1": 0.7368421052631577,
+            "rouge2": 0.35294117647058826,
+            "rougeL": 0.5263157894736842,
+            "bertscore": 0.9173468351364136,
+            "meteor": 0.6953898514851486
+        }
+    },
+    {
+        "id": 29,
+        "video_name": "f04e8671-a8f1-4bf8-965b-38f45679ac0a_355_359.mp4",
+        "user_question": "What color was the jacket hanged on the wall?",
+        "assistant_answer": "The jacket hanged on the wall was orange.",
+        "ground_truth": "The jacket hanged on the wall was military green.",
+        "metrics": {
+            "sacrebleu": 0.6716877364745231,
+            "rouge1": 0.823529411764706,
+            "rouge2": 0.7999999999999999,
+            "rougeL": 0.823529411764706,
+            "bertscore": 0.9827549457550049,
+            "meteor": 0.8017676767676769
+        }
+    },
+    {
+        "id": 30,
+        "video_name": "53c86be4-190d-4410-8750-179a7edc70b3_1021_1050.mp4",
+        "user_question": "Did I leave the tap open?",
+        "assistant_answer": "Yes, the tap is open in the sink.",
+        "ground_truth": "No, you didn't leave the tap open.",
+        "metrics": {
+            "sacrebleu": 0.10552670315936317,
+            "rouge1": 0.375,
+            "rouge2": 0.14285714285714285,
+            "rougeL": 0.375,
+            "bertscore": 0.9272439479827881,
+            "meteor": 0.25
+        }
+    },
+    {
+        "id": 31,
+        "video_name": "c664f078-9b34-4a58-b949-180ac4bc0980_112_138.mp4",
+        "user_question": "How many tools where in the bucket?",
+        "assistant_answer": "There are two tools in the bucket.",
+        "ground_truth": "There were ten items in the bucket",
+        "metrics": {
+            "sacrebleu": 0.2208959113415788,
+            "rouge1": 0.5714285714285714,
+            "rouge2": 0.3333333333333333,
+            "rougeL": 0.5714285714285714,
+            "bertscore": 0.9428557753562927,
+            "meteor": 0.5281690140845071
+        }
+    },
+    {
+        "id": 32,
+        "video_name": "414c7414-17a2-4a2f-a07b-b2d34c454790_38_44.mp4",
+        "user_question": "Where is the hand sanitizer?",
+        "assistant_answer": "The hand sanitizer is located on the floor next to the door.",
+        "ground_truth": "The hand sanitizer was in the dispenser next to the entrance door of the store.",
+        "metrics": {
+            "sacrebleu": 0.16991217562121883,
+            "rouge1": 0.5925925925925926,
+            "rouge2": 0.32,
+            "rougeL": 0.5925925925925926,
+            "bertscore": 0.9523612856864929,
+            "meteor": 0.4383895572855233
+        }
+    },
+    {
+        "id": 33,
+        "video_name": "2bbc6cdf-b662-498e-9a9f-231dd5ac2a9e_0_3.mp4",
+        "user_question": "Where did I put the wire?",
+        "assistant_answer": "The wire is attached to the man's hand, which is holding a small device.",
+        "ground_truth": "You put the wire on top of the GoPro box.",
+        "metrics": {
+            "sacrebleu": 0.0321858262703621,
+            "rouge1": 0.24,
+            "rouge2": 0.08695652173913043,
+            "rougeL": 0.24,
+            "bertscore": 0.8894175887107849,
+            "meteor": 0.27209051724137934
+        }
+    },
+    {
+        "id": 34,
+        "video_name": "725162f4-4636-469e-b880-829a2ad58c8a_0_3.mp4",
+        "user_question": "Who did I interact with when I was standing?",
+        "assistant_answer": "When you were standing, you interacted with a man who was standing in front of a shelf.",
+        "ground_truth": "It is not possible to determine who you were interacting with while standing.",
+        "metrics": {
+            "sacrebleu": 0.0532864224277779,
+            "rouge1": 0.33333333333333337,
+            "rouge2": 0.07142857142857144,
+            "rougeL": 0.26666666666666666,
+            "bertscore": 0.8903727531433105,
+            "meteor": 0.33075299085151305
+        }
+    },
+    {
+        "id": 35,
+        "video_name": "6d282ccf-931e-4ee3-a57e-f12447af2f2d_135_138.mp4",
+        "user_question": "What did I throw in the green bucket?",
+        "assistant_answer": "The man threw a blue object in the green bucket.",
+        "ground_truth": "It looks like you threw a tube or some mechanical part in the green bucket.",
+        "metrics": {
+            "sacrebleu": 0.2561338311770114,
+            "rouge1": 0.48,
+            "rouge2": 0.34782608695652173,
+            "rougeL": 0.48,
+            "bertscore": 0.9126834273338318,
+            "meteor": 0.44634628044766295
+        }
+    },
+    {
+        "id": 36,
+        "video_name": "12babcc1-a848-4882-869e-b6e8cc963c2c_11_18.mp4",
+        "user_question": "what did i pour in the pan?",
+        "assistant_answer": "The person in the image is pouring a liquid into a pan on the stove.",
+        "ground_truth": "It looks like you poured a liquid similar to water in the pan.",
+        "metrics": {
+            "sacrebleu": 0.0765512272059122,
+            "rouge1": 0.3571428571428571,
+            "rouge2": 0.15384615384615383,
+            "rougeL": 0.21428571428571427,
+            "bertscore": 0.905218780040741,
+            "meteor": 0.24647887323943662
+        }
+    },
+    {
+        "id": 37,
+        "video_name": "d2b7d331-4617-45db-a339-80afb7e25741_11_41.mp4",
+        "user_question": "where is the rice cooker?",
+        "assistant_answer": "The rice cooker is on the floor next to the table.",
+        "ground_truth": "The rice cooker is on a small cabinet next to a kettle.",
+        "metrics": {
+            "sacrebleu": 0.34686261461719176,
+            "rouge1": 0.6086956521739131,
+            "rouge2": 0.47619047619047616,
+            "rougeL": 0.6086956521739131,
+            "bertscore": 0.949627161026001,
+            "meteor": 0.5813953488372093
+        }
+    },
+    {
+        "id": 38,
+        "video_name": "6a33bd7d-1514-4364-a09b-6771d46b58f0_0_97.mp4",
+        "user_question": "what did l put in the wood plank?",
+        "assistant_answer": "The man in the video is using a hammer to put a nail into the wood plank.",
+        "ground_truth": "You put a wood chisel (or carving tool) in the wood plank, using a hammer to strike it.",
+        "metrics": {
+            "sacrebleu": 0.1896312653889896,
+            "rouge1": 0.5714285714285715,
+            "rouge2": 0.42424242424242425,
+            "rougeL": 0.34285714285714286,
+            "bertscore": 0.9043326377868652,
+            "meteor": 0.4113100704009794
+        }
+    },
+    {
+        "id": 39,
+        "video_name": "5b86c54c-51bd-4cee-9c53-4aba881772d0_120_127.mp4",
+        "user_question": "What color was the pickup track along the road?",
+        "assistant_answer": "The pickup track along the road was white.",
+        "ground_truth": "The pickup truck track along the road is white.",
+        "metrics": {
+            "sacrebleu": 0.36088772259506896,
+            "rouge1": 0.823529411764706,
+            "rouge2": 0.5333333333333333,
+            "rougeL": 0.823529411764706,
+            "bertscore": 0.9800756573677063,
+            "meteor": 0.78677398989899
+        }
+    },
+    {
+        "id": 40,
+        "video_name": "c7873f07-7b9c-4794-9a56-fdebeeceee68_461_480.mp4",
+        "user_question": "Who did I talk to in the parking lot?",
+        "assistant_answer": "In the parking lot, you talked to a man who was standing next to a white car.",
+        "ground_truth": "You were talking to the woman who parked her car in front in the wrong way.",
+        "metrics": {
+            "sacrebleu": 0.030272532566104675,
+            "rouge1": 0.3636363636363636,
+            "rouge2": 0.06451612903225808,
+            "rougeL": 0.24242424242424243,
+            "bertscore": 0.8913659453392029,
+            "meteor": 0.33950617283950624
+        }
+    },
+    {
+        "id": 41,
+        "video_name": "58fa07ae-2992-4dc9-842a-e5a73ee3d345_67_82.mp4",
+        "user_question": "What object did I light",
+        "assistant_answer": "You lit a cigarette..\n\nThe image shows a person holding a lit cigarette in their hand. The person is in a dark room, and the cigarette is the main focus of the image. The person is holding the cigarette close to the camera, and the light from the lit cigarette illuminates the surrounding area. The image captures the moment of the person lighting the cigarette, emphasizing the act of smoking.",
+        "ground_truth": "You lit a piece of paper or newspaper.",
+        "metrics": {
+            "sacrebleu": 0.019296831216677215,
+            "rouge1": 0.10256410256410256,
+            "rouge2": 0.05263157894736841,
+            "rougeL": 0.10256410256410256,
+            "bertscore": 0.8504380583763123,
+            "meteor": 0.15723270440251574
+        }
+    },
+    {
+        "id": 42,
+        "video_name": "3231822a-fc8b-4207-b0b8-5cbb1344cb2f_7_18.mp4",
+        "user_question": "What kitchen tool did I cut the springer onions with?",
+        "assistant_answer": "The person cut the springer onions with a knife.",
+        "ground_truth": "You used a large chef's knife to cut the spring onions.",
+        "metrics": {
+            "sacrebleu": 0.09042713792226896,
+            "rouge1": 0.4761904761904762,
+            "rouge2": 0.10526315789473685,
+            "rougeL": 0.28571428571428575,
+            "bertscore": 0.9250157475471497,
+            "meteor": 0.33573928258967634
+        }
+    },
+    {
+        "id": 43,
+        "video_name": "a40dce18-488d-4acc-b754-fcd56c204db1_0_183.mp4",
+        "user_question": "How many onions was chopped?",
+        "assistant_answer": "The person in the video chopped two onions.",
+        "ground_truth": "two half onions",
+        "metrics": {
+            "sacrebleu": 0.05669791110976001,
+            "rouge1": 0.36363636363636365,
+            "rouge2": 0.0,
+            "rougeL": 0.36363636363636365,
+            "bertscore": 0.848974347114563,
+            "meteor": 0.27777777777777785
+        }
+    },
+    {
+        "id": 44,
+        "video_name": "da0092ba-0247-4438-9172-4f60f00be608_127_138.mp4",
+        "user_question": "How many spoons where in the cooking pot?",
+        "assistant_answer": "There are two spoons in the cooking pot.",
+        "ground_truth": "There is one spoon in the cooking pot.",
+        "metrics": {
+            "sacrebleu": 0.4671379777281999,
+            "rouge1": 0.625,
+            "rouge2": 0.42857142857142855,
+            "rougeL": 0.625,
+            "bertscore": 0.9737647175788879,
+            "meteor": 0.7687074829931974
+        }
+    },
+    {
+        "id": 45,
+        "video_name": "a690c387-fc3c-4596-9ec5-42496139d90b_202_206.mp4",
+        "user_question": "where did i open the door",
+        "assistant_answer": "The man is standing on a ladder in front of a door, which is open.",
+        "ground_truth": "You opened the door outward, where it seems there is a garden.",
+        "metrics": {
+            "sacrebleu": 0.03419798030780472,
+            "rouge1": 0.2962962962962963,
+            "rouge2": 0.0,
+            "rougeL": 0.22222222222222224,
+            "bertscore": 0.886676013469696,
+            "meteor": 0.24475524475524474
+        }
+    },
+    {
+        "id": 46,
+        "video_name": "e5e98fec-82b8-4401-9a7a-42eae3f51e55_258_265.mp4",
+        "user_question": "What did I pour in the sink?",
+        "assistant_answer": "The person poured a bottle of detergent into the sink.",
+        "ground_truth": "You poured water in the sink.",
+        "metrics": {
+            "sacrebleu": 0.14991106946711685,
+            "rouge1": 0.37499999999999994,
+            "rouge2": 0.14285714285714285,
+            "rougeL": 0.37499999999999994,
+            "bertscore": 0.9320124983787537,
+            "meteor": 0.5067567567567568
+        }
+    },
+    {
+        "id": 47,
+        "video_name": "5f70709f-d1a7-44ce-ade8-266a8cd41443_6_13.mp4",
+        "user_question": "What color were the eggs I mixed?",
+        "assistant_answer": "The eggs I mixed were orange.",
+        "ground_truth": "The eggs you mixed were orange and yellow.",
+        "metrics": {
+            "sacrebleu": 0.24177237023718653,
+            "rouge1": 0.7142857142857143,
+            "rouge2": 0.5,
+            "rougeL": 0.7142857142857143,
+            "bertscore": 0.9706681966781616,
+            "meteor": 0.6392045454545455
+        }
+    },
+    {
+        "id": 48,
+        "video_name": "b810fff6-0df0-479a-b58c-012e42e4f7b3_202_210.mp4",
+        "user_question": "Where was the set of pins before i picked it?",
+        "assistant_answer": "The set of pins was on the floor before the man picked it up.",
+        "ground_truth": "The set of pins was in the tool drawer under the workbench before you picked it.",
+        "metrics": {
+            "sacrebleu": 0.27725959261163263,
+            "rouge1": 0.6666666666666666,
+            "rouge2": 0.3571428571428571,
+            "rougeL": 0.6000000000000001,
+            "bertscore": 0.9273887872695923,
+            "meteor": 0.6016332152695789
+        }
+    },
+    {
+        "id": 49,
+        "video_name": "751201ad-5397-4956-a4f2-d73fb969b6c5_161_165.mp4",
+        "user_question": "In what drawer did I see the screwdrivers?",
+        "assistant_answer": "The screwdrivers are in the second drawer from the bottom.",
+        "ground_truth": "You saw the screwdrivers in the second-top drawer.",
+        "metrics": {
+            "sacrebleu": 0.09864703138979419,
+            "rouge1": 0.631578947368421,
+            "rouge2": 0.35294117647058826,
+            "rougeL": 0.631578947368421,
+            "bertscore": 0.9331815242767334,
+            "meteor": 0.3260869565217391
+        }
+    },
+    {
+        "id": 50,
+        "video_name": "a18c5454-8d7f-4380-944a-21854635d7f9_253_262.mp4",
+        "user_question": "Where did I put tile cutter?",
+        "assistant_answer": "The tile cutter is placed on the floor next to the person.",
+        "ground_truth": "The tile cutter appears to be resting on a wooden surface that is placed on the floor,",
+        "metrics": {
+            "sacrebleu": 0.2711472952597623,
+            "rouge1": 0.6206896551724139,
+            "rouge2": 0.4444444444444444,
+            "rougeL": 0.5517241379310345,
+            "bertscore": 0.9285025000572205,
+            "meteor": 0.43809523809523804
+        }
+    }
+]
