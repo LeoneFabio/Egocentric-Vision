@@ -6,11 +6,11 @@
         "assistant_answer": "The soap is located in the sink.",
         "ground_truth": "The soap is on the shelf near the sink.",
         "metrics": {
-            "sacrebleu": 0.26924761780320433,
+            "sacrebleu": 26.924761780320434,
             "rouge1": 0.6250000000000001,
             "rouge2": 0.42857142857142855,
             "rougeL": 0.6250000000000001,
-            "bertscore": 0.9567143321037292,
+            "bertscore": 0.9567145109176636,
             "meteor": 0.5739795918367346
         }
     },
@@ -21,7 +21,7 @@
         "assistant_answer": "You chopped a head of lettuce and a piece of broccoli.",
         "ground_truth": "You chopped celery or cabbage",
         "metrics": {
-            "sacrebleu": 0.06772997136689071,
+            "sacrebleu": 6.772997136689072,
             "rouge1": 0.25000000000000006,
             "rouge2": 0.14285714285714288,
             "rougeL": 0.25000000000000006,
@@ -36,7 +36,7 @@
         "assistant_answer": "The person in the video ate a plate of food, which included a sandwich and a bowl of food.",
         "ground_truth": "You ate a meal consisting of rice or noodles mixed with minced meat or eggs, accompanied by a side of orange fries, likely sweet potato fries.",
         "metrics": {
-            "sacrebleu": 0.03394201704566131,
+            "sacrebleu": 3.394201704566131,
             "rouge1": 0.2222222222222222,
             "rouge2": 0.046511627906976744,
             "rougeL": 0.2222222222222222,
@@ -51,11 +51,11 @@
         "assistant_answer": "The man in the video is using a power tool to mix cement in a large bowl.",
         "ground_truth": "You put building adhesive in the bowl.",
         "metrics": {
-            "sacrebleu": 0.06074588070876682,
+            "sacrebleu": 6.074588070876682,
             "rouge1": 0.25,
             "rouge2": 0.09090909090909091,
             "rougeL": 0.25,
-            "bertscore": 0.8904568552970886,
+            "bertscore": 0.8904569149017334,
             "meteor": 0.3506944444444445
         }
     },
@@ -66,11 +66,11 @@
         "assistant_answer": "The person holding the cell phone is standing in a kitchen.",
         "ground_truth": "You've put your phone down on the kitchen peninsula.",
         "metrics": {
-            "sacrebleu": 0.04789232204309912,
+            "sacrebleu": 4.789232204309912,
             "rouge1": 0.28571428571428564,
             "rouge2": 0.0,
             "rougeL": 0.1904761904761905,
-            "bertscore": 0.8787952661514282,
+            "bertscore": 0.8787950277328491,
             "meteor": 0.18018018018018017
         }
     },
@@ -81,11 +81,11 @@
         "assistant_answer": "The man used a wrench to unscrew the machine first.",
         "ground_truth": "The first tool used on the machine was a screwdriver.",
         "metrics": {
-            "sacrebleu": 0.10252286118120933,
+            "sacrebleu": 10.252286118120933,
             "rouge1": 0.6,
             "rouge2": 0.1111111111111111,
             "rougeL": 0.4000000000000001,
-            "bertscore": 0.9175273776054382,
+            "bertscore": 0.9175272583961487,
             "meteor": 0.4359925788497217
         }
     },
@@ -96,11 +96,11 @@
         "assistant_answer": "The person in the video is seen putting food into a dish.",
         "ground_truth": "You put mushrooms with a sauce/oil or various seasonings in the dish.",
         "metrics": {
-            "sacrebleu": 0.07921066269168085,
+            "sacrebleu": 7.921066269168085,
             "rouge1": 0.32,
             "rouge2": 0.08695652173913043,
             "rougeL": 0.24000000000000002,
-            "bertscore": 0.8645470142364502,
+            "bertscore": 0.8645468950271606,
             "meteor": 0.3931623931623932
         }
     },
@@ -111,7 +111,7 @@
         "assistant_answer": "The egg was in the refrigerator before you picked it.",
         "ground_truth": "The egg was inside a carton in the fridge ",
         "metrics": {
-            "sacrebleu": 0.17542198478193427,
+            "sacrebleu": 17.542198478193427,
             "rouge1": 0.5263157894736842,
             "rouge2": 0.35294117647058826,
             "rougeL": 0.5263157894736842,
@@ -126,11 +126,11 @@
         "assistant_answer": "You poured coffee into the mug.",
         "ground_truth": "You poured water in the mug.",
         "metrics": {
-            "sacrebleu": 0.30739407647563216,
+            "sacrebleu": 30.739407647563215,
             "rouge1": 0.6666666666666666,
             "rouge2": 0.4000000000000001,
             "rougeL": 0.6666666666666666,
-            "bertscore": 0.9696506857872009,
+            "bertscore": 0.9696506261825562,
             "meteor": 0.6914285714285714
         }
     },
@@ -141,7 +141,7 @@
         "assistant_answer": "You talked to a man at the workshop.",
         "ground_truth": "It seems like you were talking to a customer at the workshop.",
         "metrics": {
-            "sacrebleu": 0.2275857642217292,
+            "sacrebleu": 22.75857642217292,
             "rouge1": 0.6,
             "rouge2": 0.33333333333333326,
             "rougeL": 0.6,
@@ -156,11 +156,11 @@
         "assistant_answer": "The person put a white bucket in the bag.",
         "ground_truth": "You put flour in the bucket.",
         "metrics": {
-            "sacrebleu": 0.10552670315936317,
+            "sacrebleu": 10.552670315936318,
             "rouge1": 0.5333333333333333,
             "rouge2": 0.15384615384615385,
             "rougeL": 0.4,
-            "bertscore": 0.9161686897277832,
+            "bertscore": 0.916168749332428,
             "meteor": 0.5095890410958904
         }
     },
@@ -171,11 +171,11 @@
         "assistant_answer": "The car is parked in a parking lot...",
         "ground_truth": "You see a car in a setting that looks like a desert landscape.",
         "metrics": {
-            "sacrebleu": 0.06786053138365654,
+            "sacrebleu": 6.786053138365654,
             "rouge1": 0.2857142857142857,
             "rouge2": 0.10526315789473685,
             "rougeL": 0.2857142857142857,
-            "bertscore": 0.8767876625061035,
+            "bertscore": 0.8767879009246826,
             "meteor": 0.14814814814814814
         }
     },
@@ -186,7 +186,7 @@
         "assistant_answer": "The round brush was before picked up by the person.",
         "ground_truth": "The round brush is near the stairs before being picked.",
         "metrics": {
-            "sacrebleu": 0.17242221289766627,
+            "sacrebleu": 17.242221289766626,
             "rouge1": 0.6,
             "rouge2": 0.2222222222222222,
             "rougeL": 0.5,
@@ -201,11 +201,11 @@
         "assistant_answer": "You washed the rice in a sink.",
         "ground_truth": "You washed the rice in the sink.",
         "metrics": {
-            "sacrebleu": 0.5946035575013611,
+            "sacrebleu": 59.4603557501361,
             "rouge1": 0.8571428571428571,
             "rouge2": 0.6666666666666666,
             "rougeL": 0.8571428571428571,
-            "bertscore": 0.9848264455795288,
+            "bertscore": 0.9848261475563049,
             "meteor": 0.7933673469387754
         }
     },
@@ -216,11 +216,11 @@
         "assistant_answer": "You took a bottle of beer from the fridge.",
         "ground_truth": "You took out some kind of bottled beverage.",
         "metrics": {
-            "sacrebleu": 0.09980099403873663,
+            "sacrebleu": 9.980099403873663,
             "rouge1": 0.35294117647058826,
             "rouge2": 0.13333333333333333,
             "rougeL": 0.35294117647058826,
-            "bertscore": 0.9188472032546997,
+            "bertscore": 0.9188471436500549,
             "meteor": 0.40879120879120884
         }
     },
@@ -231,7 +231,7 @@
         "assistant_answer": "The person put the clothing on the rack before hanging them.",
         "ground_truth": "You put the clothes on the couch before hanging them.",
         "metrics": {
-            "sacrebleu": 0.28646290158800986,
+            "sacrebleu": 28.646290158800984,
             "rouge1": 0.6666666666666666,
             "rouge2": 0.4210526315789474,
             "rougeL": 0.6666666666666666,
@@ -246,11 +246,11 @@
         "assistant_answer": "You applied egg on 10 doughs.",
         "ground_truth": "You applied egg to ten doughs.",
         "metrics": {
-            "sacrebleu": 0.30739407647563216,
+            "sacrebleu": 30.739407647563215,
             "rouge1": 0.6666666666666666,
             "rouge2": 0.4000000000000001,
             "rougeL": 0.6666666666666666,
-            "bertscore": 0.9911872744560242,
+            "bertscore": 0.9911872148513794,
             "meteor": 0.8412698412698414
         }
     },
@@ -261,11 +261,11 @@
         "assistant_answer": "The person folded 10 clothes in the suitcase.",
         "ground_truth": "You folded four pieces of clothing.",
         "metrics": {
-            "sacrebleu": 0.05669791110976001,
+            "sacrebleu": 5.669791110976001,
             "rouge1": 0.14285714285714288,
             "rouge2": 0.0,
             "rougeL": 0.14285714285714288,
-            "bertscore": 0.9309599995613098,
+            "bertscore": 0.9309601783752441,
             "meteor": 0.20833333333333331
         }
     },
@@ -276,11 +276,11 @@
         "assistant_answer": "The person is holding a blue plaid cloth in their hand, which they used to clean their hands.",
         "ground_truth": "The napkin you cleaned your hands with is the one that is red and white with a blue stripe pattern.",
         "metrics": {
-            "sacrebleu": 0.04793738461810042,
+            "sacrebleu": 4.793738461810042,
             "rouge1": 0.2631578947368421,
             "rouge2": 0.05555555555555555,
             "rougeL": 0.2105263157894737,
-            "bertscore": 0.8873853087425232,
+            "bertscore": 0.887385368347168,
             "meteor": 0.22946977834195878
         }
     },
@@ -291,11 +291,11 @@
         "assistant_answer": "I picked two fuse holders from the box.",
         "ground_truth": "you have picked seven fuse holders from the box.",
         "metrics": {
-            "sacrebleu": 0.5462757644646493,
+            "sacrebleu": 54.627576446464936,
             "rouge1": 0.7058823529411765,
             "rouge2": 0.5333333333333333,
             "rougeL": 0.7058823529411765,
-            "bertscore": 0.9771748185157776,
+            "bertscore": 0.9771748781204224,
             "meteor": 0.6988249845392702
         }
     },
@@ -306,11 +306,11 @@
         "assistant_answer": "You put a yellow collar on the dog.",
         "ground_truth": "You put the leash collar on the dog.",
         "metrics": {
-            "sacrebleu": 0.5133450480401706,
+            "sacrebleu": 51.33450480401705,
             "rouge1": 0.75,
             "rouge2": 0.5714285714285714,
             "rougeL": 0.75,
-            "bertscore": 0.9664252996444702,
+            "bertscore": 0.9664255380630493,
             "meteor": 0.7687074829931974
         }
     },
@@ -321,11 +321,11 @@
         "assistant_answer": "I took a picture of the fridge and the kitchen.",
         "ground_truth": "You took an ice pack from the fridge.",
         "metrics": {
-            "sacrebleu": 0.08913765521398126,
+            "sacrebleu": 8.913765521398126,
             "rouge1": 0.33333333333333326,
             "rouge2": 0.125,
             "rougeL": 0.33333333333333326,
-            "bertscore": 0.9112386107444763,
+            "bertscore": 0.9112387299537659,
             "meteor": 0.21739130434782605
         }
     },
@@ -336,11 +336,11 @@
         "assistant_answer": "The man removed two tools from the bag.",
         "ground_truth": "You removed a total of two tools from the bag.",
         "metrics": {
-            "sacrebleu": 0.4888290318657944,
+            "sacrebleu": 48.88290318657944,
             "rouge1": 0.6666666666666665,
             "rouge2": 0.5,
             "rougeL": 0.6666666666666665,
-            "bertscore": 0.9544242024421692,
+            "bertscore": 0.954423725605011,
             "meteor": 0.6405895691609977
         }
     },
@@ -351,11 +351,11 @@
         "assistant_answer": "The papers were on the floor before the man put them in the empty box.",
         "ground_truth": "The papers were on the floor.",
         "metrics": {
-            "sacrebleu": 0.31314224813827346,
+            "sacrebleu": 31.314224813827344,
             "rouge1": 0.5714285714285715,
             "rouge2": 0.5263157894736842,
             "rougeL": 0.5714285714285715,
-            "bertscore": 0.9352561831474304,
+            "bertscore": 0.9352563619613647,
             "meteor": 0.7246189615086541
         }
     },
@@ -366,7 +366,7 @@
         "assistant_answer": "I picked 2 nuts from the black plastic material.",
         "ground_truth": "It's not possible to determine the exact number of nuts from the image provided",
         "metrics": {
-            "sacrebleu": 0.10470197811644794,
+            "sacrebleu": 10.470197811644793,
             "rouge1": 0.25,
             "rouge2": 0.18181818181818182,
             "rougeL": 0.25,
@@ -381,11 +381,11 @@
         "assistant_answer": "The person in the image is cooking carrots in a large pot.",
         "ground_truth": "It appears to be a dish with some kind of meat and carrot.",
         "metrics": {
-            "sacrebleu": 0.03401542618686438,
+            "sacrebleu": 3.4015426186864377,
             "rouge1": 0.08,
             "rouge2": 0.0,
             "rougeL": 0.08,
-            "bertscore": 0.8881869912147522,
+            "bertscore": 0.8881868124008179,
             "meteor": 0.14388489208633093
         }
     },
@@ -396,11 +396,11 @@
         "assistant_answer": "The refrigerator was in the kitchen.",
         "ground_truth": "The refrigerator was under the window.",
         "metrics": {
-            "sacrebleu": 0.2777619034011791,
+            "sacrebleu": 27.77619034011791,
             "rouge1": 0.6666666666666666,
             "rouge2": 0.4000000000000001,
             "rougeL": 0.6666666666666666,
-            "bertscore": 0.950230062007904,
+            "bertscore": 0.9502300024032593,
             "meteor": 0.6371428571428571
         }
     },
@@ -411,7 +411,7 @@
         "assistant_answer": "The paper you moved with your right hand is white.",
         "ground_truth": "Youe moved a white paper with your right hand.",
         "metrics": {
-            "sacrebleu": 0.27901593935858265,
+            "sacrebleu": 27.901593935858266,
             "rouge1": 0.7368421052631577,
             "rouge2": 0.35294117647058826,
             "rougeL": 0.5263157894736842,
@@ -426,11 +426,11 @@
         "assistant_answer": "The jacket hanged on the wall was orange.",
         "ground_truth": "The jacket hanged on the wall was military green.",
         "metrics": {
-            "sacrebleu": 0.6716877364745231,
+            "sacrebleu": 67.16877364745231,
             "rouge1": 0.823529411764706,
             "rouge2": 0.7999999999999999,
             "rougeL": 0.823529411764706,
-            "bertscore": 0.9827549457550049,
+            "bertscore": 0.9827548265457153,
             "meteor": 0.8017676767676769
         }
     },
@@ -441,11 +441,11 @@
         "assistant_answer": "Yes, the tap is open in the sink.",
         "ground_truth": "No, you didn't leave the tap open.",
         "metrics": {
-            "sacrebleu": 0.10552670315936317,
+            "sacrebleu": 10.552670315936318,
             "rouge1": 0.375,
             "rouge2": 0.14285714285714285,
             "rougeL": 0.375,
-            "bertscore": 0.9272439479827881,
+            "bertscore": 0.9272438883781433,
             "meteor": 0.25
         }
     },
@@ -456,11 +456,11 @@
         "assistant_answer": "There are two tools in the bucket.",
         "ground_truth": "There were ten items in the bucket",
         "metrics": {
-            "sacrebleu": 0.2208959113415788,
+            "sacrebleu": 22.089591134157878,
             "rouge1": 0.5714285714285714,
             "rouge2": 0.3333333333333333,
             "rougeL": 0.5714285714285714,
-            "bertscore": 0.9428557753562927,
+            "bertscore": 0.9428556561470032,
             "meteor": 0.5281690140845071
         }
     },
@@ -471,11 +471,11 @@
         "assistant_answer": "The hand sanitizer is located on the floor next to the door.",
         "ground_truth": "The hand sanitizer was in the dispenser next to the entrance door of the store.",
         "metrics": {
-            "sacrebleu": 0.16991217562121883,
+            "sacrebleu": 16.991217562121882,
             "rouge1": 0.5925925925925926,
             "rouge2": 0.32,
             "rougeL": 0.5925925925925926,
-            "bertscore": 0.9523612856864929,
+            "bertscore": 0.9523612260818481,
             "meteor": 0.4383895572855233
         }
     },
@@ -486,11 +486,11 @@
         "assistant_answer": "The wire is attached to the man's hand, which is holding a small device.",
         "ground_truth": "You put the wire on top of the GoPro box.",
         "metrics": {
-            "sacrebleu": 0.0321858262703621,
+            "sacrebleu": 3.21858262703621,
             "rouge1": 0.24,
             "rouge2": 0.08695652173913043,
             "rougeL": 0.24,
-            "bertscore": 0.8894175887107849,
+            "bertscore": 0.8894175291061401,
             "meteor": 0.27209051724137934
         }
     },
@@ -501,11 +501,11 @@
         "assistant_answer": "When you were standing, you interacted with a man who was standing in front of a shelf.",
         "ground_truth": "It is not possible to determine who you were interacting with while standing.",
         "metrics": {
-            "sacrebleu": 0.0532864224277779,
+            "sacrebleu": 5.32864224277779,
             "rouge1": 0.33333333333333337,
             "rouge2": 0.07142857142857144,
             "rougeL": 0.26666666666666666,
-            "bertscore": 0.8903727531433105,
+            "bertscore": 0.8903729319572449,
             "meteor": 0.33075299085151305
         }
     },
@@ -516,11 +516,11 @@
         "assistant_answer": "The man threw a blue object in the green bucket.",
         "ground_truth": "It looks like you threw a tube or some mechanical part in the green bucket.",
         "metrics": {
-            "sacrebleu": 0.2561338311770114,
+            "sacrebleu": 25.613383117701137,
             "rouge1": 0.48,
             "rouge2": 0.34782608695652173,
             "rougeL": 0.48,
-            "bertscore": 0.9126834273338318,
+            "bertscore": 0.9126831889152527,
             "meteor": 0.44634628044766295
         }
     },
@@ -531,11 +531,11 @@
         "assistant_answer": "The person in the image is pouring a liquid into a pan on the stove.",
         "ground_truth": "It looks like you poured a liquid similar to water in the pan.",
         "metrics": {
-            "sacrebleu": 0.0765512272059122,
+            "sacrebleu": 7.655122720591221,
             "rouge1": 0.3571428571428571,
             "rouge2": 0.15384615384615383,
             "rougeL": 0.21428571428571427,
-            "bertscore": 0.905218780040741,
+            "bertscore": 0.9052188396453857,
             "meteor": 0.24647887323943662
         }
     },
@@ -546,7 +546,7 @@
         "assistant_answer": "The rice cooker is on the floor next to the table.",
         "ground_truth": "The rice cooker is on a small cabinet next to a kettle.",
         "metrics": {
-            "sacrebleu": 0.34686261461719176,
+            "sacrebleu": 34.68626146171918,
             "rouge1": 0.6086956521739131,
             "rouge2": 0.47619047619047616,
             "rougeL": 0.6086956521739131,
@@ -561,7 +561,7 @@
         "assistant_answer": "The man in the video is using a hammer to put a nail into the wood plank.",
         "ground_truth": "You put a wood chisel (or carving tool) in the wood plank, using a hammer to strike it.",
         "metrics": {
-            "sacrebleu": 0.1896312653889896,
+            "sacrebleu": 18.963126538898962,
             "rouge1": 0.5714285714285715,
             "rouge2": 0.42424242424242425,
             "rougeL": 0.34285714285714286,
@@ -576,11 +576,11 @@
         "assistant_answer": "The pickup track along the road was white.",
         "ground_truth": "The pickup truck track along the road is white.",
         "metrics": {
-            "sacrebleu": 0.36088772259506896,
+            "sacrebleu": 36.0887722595069,
             "rouge1": 0.823529411764706,
             "rouge2": 0.5333333333333333,
             "rougeL": 0.823529411764706,
-            "bertscore": 0.9800756573677063,
+            "bertscore": 0.9800754189491272,
             "meteor": 0.78677398989899
         }
     },
@@ -591,11 +591,11 @@
         "assistant_answer": "In the parking lot, you talked to a man who was standing next to a white car.",
         "ground_truth": "You were talking to the woman who parked her car in front in the wrong way.",
         "metrics": {
-            "sacrebleu": 0.030272532566104675,
+            "sacrebleu": 3.0272532566104675,
             "rouge1": 0.3636363636363636,
             "rouge2": 0.06451612903225808,
             "rougeL": 0.24242424242424243,
-            "bertscore": 0.8913659453392029,
+            "bertscore": 0.8913660049438477,
             "meteor": 0.33950617283950624
         }
     },
@@ -606,11 +606,11 @@
         "assistant_answer": "You lit a cigarette..\n\nThe image shows a person holding a lit cigarette in their hand. The person is in a dark room, and the cigarette is the main focus of the image. The person is holding the cigarette close to the camera, and the light from the lit cigarette illuminates the surrounding area. The image captures the moment of the person lighting the cigarette, emphasizing the act of smoking.",
         "ground_truth": "You lit a piece of paper or newspaper.",
         "metrics": {
-            "sacrebleu": 0.019296831216677215,
+            "sacrebleu": 1.9296831216677215,
             "rouge1": 0.10256410256410256,
             "rouge2": 0.05263157894736841,
             "rougeL": 0.10256410256410256,
-            "bertscore": 0.8504380583763123,
+            "bertscore": 0.8504379987716675,
             "meteor": 0.15723270440251574
         }
     },
@@ -621,11 +621,11 @@
         "assistant_answer": "The person cut the springer onions with a knife.",
         "ground_truth": "You used a large chef's knife to cut the spring onions.",
         "metrics": {
-            "sacrebleu": 0.09042713792226896,
+            "sacrebleu": 9.042713792226897,
             "rouge1": 0.4761904761904762,
             "rouge2": 0.10526315789473685,
             "rougeL": 0.28571428571428575,
-            "bertscore": 0.9250157475471497,
+            "bertscore": 0.925015926361084,
             "meteor": 0.33573928258967634
         }
     },
@@ -636,7 +636,7 @@
         "assistant_answer": "The person in the video chopped two onions.",
         "ground_truth": "two half onions",
         "metrics": {
-            "sacrebleu": 0.05669791110976001,
+            "sacrebleu": 5.669791110976001,
             "rouge1": 0.36363636363636365,
             "rouge2": 0.0,
             "rougeL": 0.36363636363636365,
@@ -651,11 +651,11 @@
         "assistant_answer": "There are two spoons in the cooking pot.",
         "ground_truth": "There is one spoon in the cooking pot.",
         "metrics": {
-            "sacrebleu": 0.4671379777281999,
+            "sacrebleu": 46.713797772819994,
             "rouge1": 0.625,
             "rouge2": 0.42857142857142855,
             "rougeL": 0.625,
-            "bertscore": 0.9737647175788879,
+            "bertscore": 0.9737646579742432,
             "meteor": 0.7687074829931974
         }
     },
@@ -666,7 +666,7 @@
         "assistant_answer": "The man is standing on a ladder in front of a door, which is open.",
         "ground_truth": "You opened the door outward, where it seems there is a garden.",
         "metrics": {
-            "sacrebleu": 0.03419798030780472,
+            "sacrebleu": 3.4197980307804725,
             "rouge1": 0.2962962962962963,
             "rouge2": 0.0,
             "rougeL": 0.22222222222222224,
@@ -681,11 +681,11 @@
         "assistant_answer": "The person poured a bottle of detergent into the sink.",
         "ground_truth": "You poured water in the sink.",
         "metrics": {
-            "sacrebleu": 0.14991106946711685,
+            "sacrebleu": 14.991106946711685,
             "rouge1": 0.37499999999999994,
             "rouge2": 0.14285714285714285,
             "rougeL": 0.37499999999999994,
-            "bertscore": 0.9320124983787537,
+            "bertscore": 0.9320124387741089,
             "meteor": 0.5067567567567568
         }
     },
@@ -696,11 +696,11 @@
         "assistant_answer": "The eggs I mixed were orange.",
         "ground_truth": "The eggs you mixed were orange and yellow.",
         "metrics": {
-            "sacrebleu": 0.24177237023718653,
+            "sacrebleu": 24.177237023718654,
             "rouge1": 0.7142857142857143,
             "rouge2": 0.5,
             "rougeL": 0.7142857142857143,
-            "bertscore": 0.9706681966781616,
+            "bertscore": 0.9706681370735168,
             "meteor": 0.6392045454545455
         }
     },
@@ -711,11 +711,11 @@
         "assistant_answer": "The set of pins was on the floor before the man picked it up.",
         "ground_truth": "The set of pins was in the tool drawer under the workbench before you picked it.",
         "metrics": {
-            "sacrebleu": 0.27725959261163263,
+            "sacrebleu": 27.725959261163265,
             "rouge1": 0.6666666666666666,
             "rouge2": 0.3571428571428571,
             "rougeL": 0.6000000000000001,
-            "bertscore": 0.9273887872695923,
+            "bertscore": 0.9273886680603027,
             "meteor": 0.6016332152695789
         }
     },
@@ -726,11 +726,11 @@
         "assistant_answer": "The screwdrivers are in the second drawer from the bottom.",
         "ground_truth": "You saw the screwdrivers in the second-top drawer.",
         "metrics": {
-            "sacrebleu": 0.09864703138979419,
+            "sacrebleu": 9.864703138979419,
             "rouge1": 0.631578947368421,
             "rouge2": 0.35294117647058826,
             "rougeL": 0.631578947368421,
-            "bertscore": 0.9331815242767334,
+            "bertscore": 0.9331815838813782,
             "meteor": 0.3260869565217391
         }
     },
@@ -741,11 +741,11 @@
         "assistant_answer": "The tile cutter is placed on the floor next to the person.",
         "ground_truth": "The tile cutter appears to be resting on a wooden surface that is placed on the floor,",
         "metrics": {
-            "sacrebleu": 0.2711472952597623,
+            "sacrebleu": 27.114729525976227,
             "rouge1": 0.6206896551724139,
             "rouge2": 0.4444444444444444,
             "rougeL": 0.5517241379310345,
-            "bertscore": 0.9285025000572205,
+            "bertscore": 0.92850261926651,
             "meteor": 0.43809523809523804
         }
     }
