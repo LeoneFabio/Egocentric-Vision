@@ -122,7 +122,7 @@
     {
         "video_name": "b9cd86ff-d01f-4faa-9d2b-c53799e47273_254_264.mp4",
         "user_question": "How many nuts did I pick from the black plastic material?",
-        "ground_truth": "It's not possible to determine the exact number of nuts from the image provided"
+        "ground_truth": "You pick one nut"
     },
     {
         "video_name": "ab094ea2-9251-4f10-945b-c2ab00c5282e_240_247.mp4",
