@@ -122,7 +122,7 @@
     {
         "video_name": "b9cd86ff-d01f-4faa-9d2b-c53799e47273_254_264.mp4",
         "user_question": "How many nuts did I pick from the black plastic material?",
-        "ground_truth": "You pick one nut"
+        "ground_truth": "You pick one nut."
     },
     {
         "video_name": "ab094ea2-9251-4f10-945b-c2ab00c5282e_240_247.mp4",
@@ -137,12 +137,12 @@
     {
         "video_name": "b5ae8df0-4825-4021-a01a-722947019865_281_285.mp4",
         "user_question": "What color is the paper I moved with my right hand?",
-        "ground_truth": "Youe moved a white paper with your right hand."
+        "ground_truth": "You moved a white paper with your right hand."
     },
     {
         "video_name": "f04e8671-a8f1-4bf8-965b-38f45679ac0a_355_359.mp4",
         "user_question": "What color was the jacket hanged on the wall?",
-        "ground_truth": "The jacket hanged on the wall was military green."
+        "ground_truth": "The jacket hanging on the wall was military green."
     },
     {
         "video_name": "53c86be4-190d-4410-8750-179a7edc70b3_1021_1050.mp4",
@@ -167,7 +167,7 @@
     {
         "video_name": "725162f4-4636-469e-b880-829a2ad58c8a_0_3.mp4",
         "user_question": "Who did I interact with when I was standing?",
-        "ground_truth": "It is not possible to determine who you were interacting with while standing."
+        "ground_truth": "You interacted with a person wearing a black shirt."
     },
     {
         "video_name": "6d282ccf-931e-4ee3-a57e-f12447af2f2d_135_138.mp4",
@@ -212,7 +212,7 @@
     {
         "video_name": "a40dce18-488d-4acc-b754-fcd56c204db1_0_183.mp4",
         "user_question": "How many onions was chopped?",
-        "ground_truth": "two half onions"
+        "ground_truth": "Two half onions."
     },
     {
         "video_name": "da0092ba-0247-4438-9172-4f60f00be608_127_138.mp4",
