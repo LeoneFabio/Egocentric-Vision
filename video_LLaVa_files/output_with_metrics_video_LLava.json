@@ -364,14 +364,14 @@
         "video_name": "b9cd86ff-d01f-4faa-9d2b-c53799e47273_254_264.mp4",
         "user_question": "How many nuts did I pick from the black plastic material?",
         "assistant_answer": "I picked 2 nuts from the black plastic material.",
-        "ground_truth": "It's not possible to determine the exact number of nuts from the image provided",
+        "ground_truth": "You pick one nut.",
         "metrics": {
-            "sacrebleu": 10.470197811644793,
-            "rouge1": 0.25,
-            "rouge2": 0.18181818181818182,
-            "rougeL": 0.25,
-            "bertscore": 0.8766769766807556,
-            "meteor": 0.20306513409961682
+            "sacrebleu": 4.196114906296549,
+            "rouge1": 0.0,
+            "rouge2": 0.0,
+            "rougeL": 0.0,
+            "bertscore": 0.9143105745315552,
+            "meteor": 0.36363636363636365
         }
     },
     {
@@ -409,14 +409,14 @@
         "video_name": "b5ae8df0-4825-4021-a01a-722947019865_281_285.mp4",
         "user_question": "What color is the paper I moved with my right hand?",
         "assistant_answer": "The paper you moved with your right hand is white.",
-        "ground_truth": "Youe moved a white paper with your right hand.",
+        "ground_truth": "You moved a white paper with your right hand.",
         "metrics": {
             "sacrebleu": 27.901593935858266,
-            "rouge1": 0.7368421052631577,
-            "rouge2": 0.35294117647058826,
-            "rougeL": 0.5263157894736842,
-            "bertscore": 0.9173468351364136,
-            "meteor": 0.6953898514851486
+            "rouge1": 0.8421052631578948,
+            "rouge2": 0.47058823529411764,
+            "rougeL": 0.631578947368421,
+            "bertscore": 0.9376926422119141,
+            "meteor": 0.814692580369148
         }
     },
     {
@@ -424,13 +424,13 @@
         "video_name": "f04e8671-a8f1-4bf8-965b-38f45679ac0a_355_359.mp4",
         "user_question": "What color was the jacket hanged on the wall?",
         "assistant_answer": "The jacket hanged on the wall was orange.",
-        "ground_truth": "The jacket hanged on the wall was military green.",
+        "ground_truth": "The jacket hanging on the wall was military green.",
         "metrics": {
-            "sacrebleu": 67.16877364745231,
-            "rouge1": 0.823529411764706,
-            "rouge2": 0.7999999999999999,
-            "rougeL": 0.823529411764706,
-            "bertscore": 0.9827548265457153,
+            "sacrebleu": 33.010083098515025,
+            "rouge1": 0.7058823529411765,
+            "rouge2": 0.5333333333333333,
+            "rougeL": 0.7058823529411765,
+            "bertscore": 0.9718740582466125,
             "meteor": 0.8017676767676769
         }
     },
@@ -499,14 +499,14 @@
         "video_name": "725162f4-4636-469e-b880-829a2ad58c8a_0_3.mp4",
         "user_question": "Who did I interact with when I was standing?",
         "assistant_answer": "When you were standing, you interacted with a man who was standing in front of a shelf.",
-        "ground_truth": "It is not possible to determine who you were interacting with while standing.",
+        "ground_truth": "You interacted with a person wearing a black shirt.",
         "metrics": {
-            "sacrebleu": 5.32864224277779,
-            "rouge1": 0.33333333333333337,
-            "rouge2": 0.07142857142857144,
-            "rougeL": 0.26666666666666666,
-            "bertscore": 0.8903729319572449,
-            "meteor": 0.33075299085151305
+            "sacrebleu": 8.562365224473284,
+            "rouge1": 0.3846153846153846,
+            "rouge2": 0.25,
+            "rougeL": 0.3846153846153846,
+            "bertscore": 0.8990186452865601,
+            "meteor": 0.5160550458715596
         }
     },
     {
@@ -634,14 +634,14 @@
         "video_name": "a40dce18-488d-4acc-b754-fcd56c204db1_0_183.mp4",
         "user_question": "How many onions was chopped?",
         "assistant_answer": "The person in the video chopped two onions.",
-        "ground_truth": "two half onions",
+        "ground_truth": "Two half onions.",
         "metrics": {
-            "sacrebleu": 5.669791110976001,
+            "sacrebleu": 9.535414040914192,
             "rouge1": 0.36363636363636365,
             "rouge2": 0.0,
             "rougeL": 0.36363636363636365,
-            "bertscore": 0.848974347114563,
-            "meteor": 0.27777777777777785
+            "bertscore": 0.8840722441673279,
+            "meteor": 0.5679012345679012
         }
     },
     {
