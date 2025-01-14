@@ -1,227 +1,114 @@
-# Egocentric-Vision
-
-This project leverages the **Ego4D NLQ benchmark** to process egocentric video data using **VSLNet**, predicting start/end timestamps of answers for input queries. It extends this with a **videoQA model** for generating textual answers, enabling deeper interaction with egocentric video and natural language tasks.
-
----
+# Bridging Vision and Language: NLQs with Textual Answers Generation
 
 ## Table of Contents
 
-1. [Overview of the NLQ Benchmark Annotations](#overview-of-the-nlq-benchmark-annotations)
-    - [Hierarchical Structure](#hierarchical-structure)
-    - [Key Attributes](#key-attributes)
-    - [JSON input Dataset Snippets](#json-input-dataset-snippets)
-2. [Plots and Analysis of Ego4D Dataset and NLQ benchmark train annotations](#plots-and-analysis-of-ego4d-dataset-and-nlq-benchmark-train-annotations)
-    - [1. Template Distribution](#1-template-distribution)
-    - [2. Clip Duration Distribution (+ Stats)](#2-clip-duration-distribution--stats)
-    - [3. Answer Segment Duration Distribution (+ Stats)](#3-answer-segment-duration-distribution--stats)
-    - [4. Answer vs. Clip Durations](#4-answer-vs-clip-durations)
-    - [5. Average Answer Durations by Template](#5-average-answer-durations-by-template)
-    - [6. Relative Position of Answer Start and End](#6-relative-position-of-answer-start-and-end)
-    - [7. Answer Start and End (along the Clip) Distribution](#7-answer-start-and-end-along-the-clip-distribution)
-    - [8. Number of Queries per Scenario (+ Stats)](#8-number-of-queries-per-scenario--stats)
-    - [9. Average Answer Durations per Scenario (+ Stats)](#9-average-answer-durations-per-scenario--stats)
-    - [10. Query Template Distribution Across Scenarios](#10-query-template-distribution-across-scenarios)
-
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+  - [Running the Notebook](#running-the-notebook)
+  - [Results and Outputs](#results-and-outputs)
+- [Models and Features](#models-and-features)
+- [Contributions](#contributions)
+- [Collaborations](#collaborations)
+- [Report](#report)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
-## Overview of the NLQ Benchmark Annotations
+## Introduction
 
-The Ego4D dataset in the NLQ (Natural Language Queries) benchmark contains approximately 19,000 annotated queries derived from around 227 hours of videos. These annotations are structured hierarchically and provide detailed metadata for fine-grained video understanding tasks. Below is a summary of the dataset structure and key components.
+Egocentric video analysis, as exemplified by the Ego4D dataset, captures complex human activities from a first-person perspective. However, the dataset poses challenges due to its unstructured and untrimmed nature. The **Natural Language Query (NLQ)** benchmark identifies temporal segments answering specific queries but requires manual review of these intervals.
 
-### Hierarchical Structure
+To address this limitation, this project proposes a pipeline that:
+1. Employs **temporal localization models** (VSLBase, VSLNet, 2D-TAN) to predict video timestamps relevant to user queries.
+2. Integrates timestamp predictions with the **Video-LLaVA VideoQA model**, transforming video segments into actionable textual answers.
 
-1. **Video**:
-   - A top-level entity representing a complete video.
-   - Videos are divided into shorter segments called **clips**.
+This pipeline optimizes computational efficiency while maintaining detail and usability, paving the way for applications in episodic memory retrieval, assistive technologies, and advanced video understanding.
 
-2. **Clip**:
-   - A shorter, continuous segment of a video, defined by start and end times (`clip_start_sec`, `clip_end_sec`) and frames (`clip_start_frame`, `clip_end_frame`).
-   - Each clip is associated with one or more **annotations**.
+---
 
-3. **Annotation**:
-   - Represents a grouping of **language queries** related to a specific clip.
-   - Provides a unique identifier (`annotation_uid`) and timestamps for queries.
+## Project Structure
 
-4. **Language Query**:
-   - A natural language question or task associated with a specific segment of the video.
-   - Includes attributes like:
-     - `query`: The text of the query (e.g., *"What did I put in the bowl?"*).
-     - `template`: The query's general structure, one of 13 pre-defined templates from three categories (*Objects*, *Place*, *People*).
-     - `clip_start_sec` and `clip_end_sec`: Timestamps relative to the clip.
-     - `video_start_sec` and `video_end_sec`: Timestamps relative to the entire video.
-
-### Key Attributes
-
-- **Template**:
-  - Queries are structured using 13 templates across three categories:
-    1. **Objects**: E.g., *"What X did I Y?"*, *"Where is object X before/after event Y?"*
-    2. **Place**: E.g., *"Where did I put X?"*
-    3. **People**: E.g., *"Who did I interact with when I did activity X?"*
-
-- **Timestamps**:
-  - Each query is annotated with start and end times in two contexts:
-    - **Clip-level**: `clip_start_sec`, `clip_end_sec`
-    - **Video-level**: `video_start_sec`, `video_end_sec`
-
-- **Raw Tags**:
-  - Include metadata for query generation, often repeating information from the `template` and `query`.
-
-### Notes
-- Annotations ensure fine-grained alignment of language tasks to video segments.
-- The `test_unannotated.json` file contains only the queries without additional temporal or structural metadata for benchmarking.
-
-### JSON input Dataset Snippets
-
-#### Annotated (Training) File:
-```json
-{
-  "version": "1",
-  "date": "220216",
-  "description": "NLQ Annotations (train)",
-  "manifest": "s3://ego4d-consortium-sharing/public/v1/full_scale/manifest.csv",
-  "videos": [
-    {
-      "video_uid":"d250521e-5197-44aa-8baa-2f42b24444d2",
-      "clips":[
-         {
-           "clip_uid":"fae92e70-88aa-4b77-b41a-5879b74c804c",
-           "video_start_sec":0.0210286,
-           "video_end_sec":480.0210286,
-           "video_start_frame":1,
-           "video_end_frame":14401,
-           "clip_start_sec":0,
-           "clip_end_sec":480.0,
-           "clip_start_frame":0,
-           "clip_end_frame":14400,
-           "source_clip_uid":"51e04dae-3ad0-48c1-b94b-c3ba0edaa99e",
-           "annotations":[
-             {
-               "language_queries":[
-                 {
-                   "clip_start_sec":0.0,
-                   "clip_end_sec":43.6657,
-                   "video_start_sec":0.0210286,
-                   "video_end_sec":43.6867286,
-                   "video_start_frame":1,
-                   "video_end_frame":1311,
-                   "template":"Objects: How many X’s? (quantity question)",
-                   "query":"How many frying pans can i see on the shelf?",
-                   "slot_x":"frying pans",
-                   "verb_x":"[verb_not_applicable]",
-                   "slot_y":"i See on the shelf",
-                   "verb_y":"see",
-                   "raw_tags":[
-                     "Objects: How many X’s? (quantity question)",
-                     "How many frying pans can i see on the shelf?",
-                     "frying pans",
-                     "[verb_not_applicable]",
-                     "i See on the shelf",
-                     "see"
-                   ]
-                 }
-               ],
-               "annotation_uid": "f3083484-a6c0-45cb-a40c-b1c2cb470443"
-             }
-           ]
-         }
-       ],
-      "split": "train"
-    }
-  ]
-}
+```
+Egocentric-Vision/
+├── Egocentric_Vision.ipynb       # Main notebook implementing the methodology
+├── nlq_files/                    # Contains NLQ dataset splits and analysis plots
+├── temporal_localization_files/  # Outputs and results related to temporal localization models
+├── video_LLaVa_files/            # Outputs and results related to Video-LLaVa
+├── Bridging_Vision_and_Language__NLQ_with_Textual_Answer_Generation.pdf #Report
 ```
 
-#### Unannotated (Test) File:
-```json
-{
-  "version": "1",
-  "date": "220216",
-  "description": "NLQ Annotations (test unannotated)",
-  "manifest": "s3://ego4d-consortium-sharing/public/v1/full_scale/manifest.csv",
-  "videos": [
-    {
-      "video_uid": "c9c44dea-c37b-461d-aa14-20e934126df5",
-      "clips": [
-        {
-          "clip_uid": "a603669a-57f9-4db4-8a81-0a6720946d45",
-          "video_start_sec": 1489.0943619333332,
-          "video_end_sec": 1969.1310359242186,
-          "video_start_frame": 66429,
-          "video_end_frame": 66429,
-          "clip_start_sec": 0,
-          "clip_end_sec": 480.03667399088545,
-          "clip_start_frame": 0,
-          "clip_end_frame": 14401,
-          "source_clip_uid": "4ee7dc88-3d7f-4607-a110-9419fb0eb93d",
-          "annotations": [
-            {
-              "language_queries": [
-                { "query": "What did I put in the sack?" },
-                { "query": "Who did I talk to in the shop?" }
-              ],
-              "annotation_uid": "f7e9c1c6-1381-4df2-9121-f0b1f437282d"
-            }
-          ]
-        }
-      ],
-      "split": "test"
-    }
-  ]
-}
-```
+## Usage
+
+### Running the Notebook
+
+1. Open the `Egocentric_Vision.ipynb` notebook in Google Colab.
+2. Execute the cells step-by-step to:
+   - Preprocess the NLQ dataset.
+   - Train and evaluate temporal localization models (**VSLBase**, **VSLNet**, **2D-TAN**).
+   - Generate and evaluate textual answers using **Video-LLaVA**.
+
+### Results and Outputs
+
+- **Temporal Localization Results**:
+  - Found in `temporal_localization_files/` with metrics and timestamp predictions.
+- **VideoQA Results**:
+  - Located in `video_LLaVa_files/`, including textual answers, evaluation metrics, and visualizations.
 
 ---
 
-## Plots and Analysis of Ego4D dataset and NLQ benchmark train annotations
+## Models and Features
 
-### 1. Template Distribution
-- **Description:** Visualizes the frequency of queries categorized by their templates.
-- **Plot Type:** Bar chart.
+### Temporal Localization Models
 
-### 2. Clip Duration Distribution (+ Stats)
-- **Description:** Displays the distribution of input clip durations.
-- **Additional Insights:** Includes statistical metrics such as:
-  - Mean, median, standard deviation, minimum and maximum durations.
-- **Plot Type:** Histogram.
+- **VSLBase** and **VSLNet**:
+  - Trained with **Omnivore** and **EgoVLP** features.
+  - Predict start and end timestamps for NLQ queries.
+- **2D-TAN**:
+  - Uses a sliding window approach to process videos with enhanced temporal resolution.
 
-### 3. Answer Segment Duration Distribution (+ Stats)
-- **Description:** Shows the distribution of durations for answer segments.
-- **Additional Insights:** Provides descriptive statistics:
-  - Mean, median, standard deviation, minimum and maximum durations.
-- **Plot Type:** Histogram.
+### VideoQA Model
 
-### 4. Answer vs. Clip Durations
-- **Description:** Highlights the relationship between clip durations and the durations of their respective answer segments.
-- **Plot Type:** Scatter plot.
+- **Video-LLaVA**:
+  - Converts trimmed video segments into textual answers, enabling actionable insights from video data.
 
-### 5. Average Answer Durations by Template
-- **Description:** Visualizes the average durations of answer segments grouped by template type.
-- **Plot Type:** Bar chart.
+### Features
 
-### 6. Relative Position of Answer Start and End
-- **Description:** Plots the normalized start and end positions of answer segments relative to their respective clips.
-- **Plot Type:** Scatter plot.
-
-### 7. Answer Start and End (along the Clip) Distribution
-- **Description:** Illustrates the distributions of normalized start and end timestamps of answer segments.
-- **Plot Type:** Overlapping histograms.
-
-### 8. Number of Queries per Scenario (+ Stats)
-- **Description:** Depicts the number of queries across different scenarios.
-- **Additional Insights:** Includes statistical metrics such as:
-  - Mean, median, standard deviation, minimum and maximum counts.
-- **Plot Type:** Horizontal bar chart.
-
-### 9. Average Answer Durations per Scenario (+ Stats)
-- **Description:** Highlights the average durations of answer segments for each scenario.
-- **Additional Insights:** Provides statistics:
-  - Mean, median, standard deviation, minimum and maximum durations.
-- **Plot Type:** Horizontal bar chart.
-
-### 10. Query Template Distribution Across Scenarios
-- **Description:** Illustrates the frequency distribution of query templates across different scenarios.
-- **Plot Type:** Heatmap.
+- **Omnivore** and **EgoVLP** feature sets were used to benchmark the temporal localization models.
+- Comparisons to baseline models trained on **SlowFast** features were performed.
 
 ---
+
+## Contributions
+
+1. **Benchmark Analysis**: Evaluated **VSLBase**, **VSLNet**, and **2D-TAN** with advanced features (**Omnivore**, **EgoVLP**).
+2. **Pipeline Integration**: Combined temporal localization with **VideoQA** for precise textual answers.
+3. **Enhanced Usability**: Streamlined video query processing, reducing user overhead.
+
+---
+
+## Collaborations
+
+This project was developed collaboratively with [Gabriele Raffaele](https://github.com/Gabriele-Raffaele) and [Peppe2212](https://github.com/Peppe2212).
+
+---
+
+## Report
+
+For a detailed explanation of the methodology, experiments, results, and conclusions, refer to the [project report](./Bridging_Vision_and_Language__NLQ_with_Textual_Answer_Generation.pdf).
+
+---
+
+## Acknowledgments
+
+This work builds upon the resources and tools provided by the following:
+
+- **Ego4D Dataset and NLQ Benchmark** for their comprehensive egocentric data.
+- **Omnivore and EgoVLP Features** for enhancing temporal localization capabilities.
+- **Video-LLaVA** for  VideoQA.
+
+We express gratitude to the creators and maintainers of these resources for their contributions to the research community.
+
+
+
 
