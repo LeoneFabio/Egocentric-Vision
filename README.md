@@ -89,7 +89,7 @@ Egocentric-Vision/
 
 ## Collaborations
 
-This project was developed collaboratively with [Gabriele Raffaele](https://github.com/Gabriele-Raffaele) and [Peppe2212](https://github.com/Peppe2212).
+This project was developed collaboratively with [Gabriele Raffaele](https://github.com/Gabriele-Raffaele) and [Giuseppe Vacante](https://github.com/Peppe2212).
 
 ---
 
