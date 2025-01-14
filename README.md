@@ -1,4 +1,4 @@
-# Bridging Vision and Language: NLQs with Textual Answers Generation
+# Bridging Vision and Language: NLQ with Textual Answer Generation
 
 ## Table of Contents
 
