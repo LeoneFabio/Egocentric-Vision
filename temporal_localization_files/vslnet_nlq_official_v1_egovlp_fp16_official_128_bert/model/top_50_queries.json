@@ -1,0 +1,460 @@
+{
+    "version": "1.0",
+    "challenge": "ego4d_nlq_challenge",
+    "best_eval_model": {
+        "epoch": 9,
+        "step": 3220
+    },
+    "top_50_queries": [
+        {
+            "query": "What vegetables did I chop? ",
+            "IoU": 0.9868421052631579,
+            "best_prediction": [
+                0.0,
+                37.5
+            ],
+            "clip_uid": "5d531ac1-010a-4e67-ba1a-96e485b14968"
+        },
+        {
+            "query": "Who did I talk to in the leaving room?",
+            "IoU": 0.9808896,
+            "best_prediction": [
+                0.0,
+                37.5
+            ],
+            "clip_uid": "72f3eb4a-71e7-4301-ac6b-9886f7605789"
+        },
+        {
+            "query": "who did I talk to at the clothes store? ",
+            "IoU": 0.9761399521731258,
+            "best_prediction": [
+                269.5,
+                306.25
+            ],
+            "clip_uid": "f0dc57b0-e2a0-4b3b-8509-790fc888a36f"
+        },
+        {
+            "query": "What tool did I sharpen the pencils with?",
+            "IoU": 0.96769353108703,
+            "best_prediction": [
+                236.25,
+                262.5
+            ],
+            "clip_uid": "c664f078-9b34-4a58-b949-180ac4bc0980"
+        },
+        {
+            "query": "Where is the wooden tray?",
+            "IoU": 0.9653409696969697,
+            "best_prediction": [
+                0.0,
+                82.5
+            ],
+            "clip_uid": "992cee60-a8af-423f-8a40-5b14208fcc1a"
+        },
+        {
+            "query": "How many drawers did I open?",
+            "IoU": 0.9637688327499627,
+            "best_prediction": [
+                453.75,
+                480.0
+            ],
+            "clip_uid": "eaf8d34a-0e20-45d0-a288-569df047461e"
+        },
+        {
+            "query": "how many slices of bread did I spread with butter.",
+            "IoU": 0.9625850340136054,
+            "best_prediction": [
+                26.25,
+                97.5
+            ],
+            "clip_uid": "bbd99850-bcb0-460e-8a40-056f1e618f88"
+        },
+        {
+            "query": "What did I put in the dough? ",
+            "IoU": 0.9568138109933362,
+            "best_prediction": [
+                78.75,
+                108.75
+            ],
+            "clip_uid": "9ab5fd9f-77e4-4438-a546-a4b6ed889f1a"
+        },
+        {
+            "query": "In what location did I last see the chair?",
+            "IoU": 0.9470536140537674,
+            "best_prediction": [
+                0.0,
+                11.708333969116211
+            ],
+            "clip_uid": "eb9c6cc3-8192-4c28-96cd-df5ac1812e3e"
+        },
+        {
+            "query": "What object did I first hit into the ground?",
+            "IoU": 0.9450414306163183,
+            "best_prediction": [
+                0.0,
+                11.25
+            ],
+            "clip_uid": "d22d3eaf-9350-46b9-99d0-39fb50e246c0"
+        },
+        {
+            "query": "What did I put in the dough in the mixer? ",
+            "IoU": 0.9445781454070523,
+            "best_prediction": [
+                82.5,
+                93.75
+            ],
+            "clip_uid": "39ec61c9-8725-47dc-8a18-f00e27b8ab2c"
+        },
+        {
+            "query": "What color is the cups on the table",
+            "IoU": 0.9408250457917464,
+            "best_prediction": [
+                0.0,
+                223.20834350585938
+            ],
+            "clip_uid": "8d3f5b12-ac2c-4315-80ed-bb827aa91bd4"
+        },
+        {
+            "query": "Where was the egg before I picked it?",
+            "IoU": 0.9375,
+            "best_prediction": [
+                11.25,
+                15.0
+            ],
+            "clip_uid": "4ba774a8-cd2a-4889-9971-cc91f5c1afd4"
+        },
+        {
+            "query": "who did I talk to in  the house?",
+            "IoU": 0.9333333333333333,
+            "best_prediction": [
+                465.0,
+                472.5
+            ],
+            "clip_uid": "93231c7e-1cf4-4a20-b1f8-9cc9428915b2"
+        },
+        {
+            "query": "What cloth did I wash?",
+            "IoU": 0.9308581762182798,
+            "best_prediction": [
+                0.0,
+                131.1041717529297
+            ],
+            "clip_uid": "5726971c-b3cc-43ed-8071-f6ee143e417d"
+        },
+        {
+            "query": "Who did I talk to at the workshop?",
+            "IoU": 0.930464744835785,
+            "best_prediction": [
+                232.26666259765625,
+                242.6666717529297
+            ],
+            "clip_uid": "88dcb32f-a537-47de-b3bf-f9149352bbb9"
+        },
+        {
+            "query": "Where did i see flask before?",
+            "IoU": 0.922401419704488,
+            "best_prediction": [
+                0.0,
+                138.59584045410156
+            ],
+            "clip_uid": "2237fc47-e8c9-4751-9b02-6189913b4b4d"
+        },
+        {
+            "query": "what did I sharpen with the utility knife",
+            "IoU": 0.9193978378378382,
+            "best_prediction": [
+                236.25,
+                262.5
+            ],
+            "clip_uid": "c664f078-9b34-4a58-b949-180ac4bc0980"
+        },
+        {
+            "query": "What did I add to the food?",
+            "IoU": 0.9181460000000001,
+            "best_prediction": [
+                41.25,
+                56.25
+            ],
+            "clip_uid": "2276090d-3aab-4a4f-afbe-dcc083604160"
+        },
+        {
+            "query": "Where is round brush before picked?",
+            "IoU": 0.9178197841993121,
+            "best_prediction": [
+                0.0,
+                3.745833396911621
+            ],
+            "clip_uid": "2237fc47-e8c9-4751-9b02-6189913b4b4d"
+        },
+        {
+            "query": "What did I tie around the table.",
+            "IoU": 0.9110224976398443,
+            "best_prediction": [
+                11.25,
+                30.0
+            ],
+            "clip_uid": "c0a634a9-3dbe-44f8-9a04-7718d2a2762e"
+        },
+        {
+            "query": "Did I wash the green pepper?",
+            "IoU": 0.9101912082562471,
+            "best_prediction": [
+                0.0,
+                11.25
+            ],
+            "clip_uid": "b01fdd44-357c-4566-b487-d9ff21e56c2e"
+        },
+        {
+            "query": "How many cans were in the fridge?",
+            "IoU": 0.905066666666663,
+            "best_prediction": [
+                315.0,
+                326.25
+            ],
+            "clip_uid": "1138ced6-d580-4013-96bb-1e5c3fea62d7"
+        },
+        {
+            "query": "What block of wood did I wipe?",
+            "IoU": 0.9048791081511509,
+            "best_prediction": [
+                0.0,
+                11.25
+            ],
+            "clip_uid": "6b9efa86-2580-465b-89b9-877dbd18467c"
+        },
+        {
+            "query": "Did I close the door?",
+            "IoU": 0.9045431111111106,
+            "best_prediction": [
+                273.75,
+                296.25
+            ],
+            "clip_uid": "f2f4fd65-681a-41ab-b6cf-c7feb025a040"
+        },
+        {
+            "query": "What part did I screw?",
+            "IoU": 0.895801794447182,
+            "best_prediction": [
+                196.75,
+                229.5416717529297
+            ],
+            "clip_uid": "13e4de75-104a-4872-8493-2bb64480169a"
+        },
+        {
+            "query": "what time did i open the fridge?",
+            "IoU": 0.8956518095238094,
+            "best_prediction": [
+                15.0,
+                41.25
+            ],
+            "clip_uid": "ab094ea2-9251-4f10-945b-c2ab00c5282e"
+        },
+        {
+            "query": "How many doughs did i apply egg on?",
+            "IoU": 0.8899711627906977,
+            "best_prediction": [
+                15.0,
+                56.25
+            ],
+            "clip_uid": "bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e"
+        },
+        {
+            "query": "Did I leave the fridge open?",
+            "IoU": 0.8889397333333349,
+            "best_prediction": [
+                202.5,
+                221.25
+            ],
+            "clip_uid": "9c82fb4e-b385-46a8-b829-45723b17cdba"
+        },
+        {
+            "query": "How long did I cut the heart shape?",
+            "IoU": 0.883953192010783,
+            "best_prediction": [
+                18.75,
+                97.5
+            ],
+            "clip_uid": "3b9af6e1-dbdd-41a6-bd2c-af06a3f64a72"
+        },
+        {
+            "query": "what did l put in the oven",
+            "IoU": 0.8830651666666668,
+            "best_prediction": [
+                168.75,
+                228.75
+            ],
+            "clip_uid": "9ab5fd9f-77e4-4438-a546-a4b6ed889f1a"
+        },
+        {
+            "query": "where is my phone?",
+            "IoU": 0.868406059821312,
+            "best_prediction": [
+                452.4375,
+                456.0
+            ],
+            "clip_uid": "740a9d13-cf77-4e7d-91b5-a3ebf6d270ec"
+        },
+        {
+            "query": "What did i pour into the steel bowl ?",
+            "IoU": 0.867843008251121,
+            "best_prediction": [
+                405.0,
+                416.25
+            ],
+            "clip_uid": "81ad10fe-c74e-4359-8779-186f46680e2c"
+        },
+        {
+            "query": "what napkin did I clean my hands with?",
+            "IoU": 0.8666004919184821,
+            "best_prediction": [
+                161.25,
+                172.5
+            ],
+            "clip_uid": "45d01186-d09a-408c-a00d-481a2d8d9749"
+        },
+        {
+            "query": "where was the machine before I opened the door?",
+            "IoU": 0.8649361792424543,
+            "best_prediction": [
+                0.0,
+                3.75
+            ],
+            "clip_uid": "c0a634a9-3dbe-44f8-9a04-7718d2a2762e"
+        },
+        {
+            "query": "Did I slice the okro?",
+            "IoU": 0.8604051636901859,
+            "best_prediction": [
+                337.5,
+                360.0
+            ],
+            "clip_uid": "e1c79556-e8af-4e26-bc4c-633100277239"
+        },
+        {
+            "query": "What did I remove from the plastic bag?",
+            "IoU": 0.8597427191254856,
+            "best_prediction": [
+                273.75,
+                277.5
+            ],
+            "clip_uid": "b01fdd44-357c-4566-b487-d9ff21e56c2e"
+        },
+        {
+            "query": "Where did I put the ham?",
+            "IoU": 0.855856,
+            "best_prediction": [
+                101.25,
+                108.75
+            ],
+            "clip_uid": "7db32b15-9ea6-4a44-a103-cc04471ce4f7"
+        },
+        {
+            "query": "How many bottles of coke was in the pack I took?",
+            "IoU": 0.853333333333334,
+            "best_prediction": [
+                78.75,
+                86.25
+            ],
+            "clip_uid": "a35ac9e4-bb20-460e-9c9d-67806ab9d13f"
+        },
+        {
+            "query": "what bottle did I pick?",
+            "IoU": 0.8522758264575517,
+            "best_prediction": [
+                975.0,
+                1003.125
+            ],
+            "clip_uid": "56ee70c6-558b-4ca6-b8e4-d28be7c98517"
+        },
+        {
+            "query": "Where was the plier before I picked it?",
+            "IoU": 0.8478693333333316,
+            "best_prediction": [
+                187.5,
+                191.25
+            ],
+            "clip_uid": "5e1a8326-b006-423e-8294-0f9559c8eb18"
+        },
+        {
+            "query": "what did l take in the fridge",
+            "IoU": 0.8452309677419371,
+            "best_prediction": [
+                266.25,
+                273.75
+            ],
+            "clip_uid": "1c865785-9ac6-4f16-baa4-97405aacad6a"
+        },
+        {
+            "query": "What time did i operate the machine?",
+            "IoU": 0.8392126372948281,
+            "best_prediction": [
+                180.0,
+                187.5
+            ],
+            "clip_uid": "96453857-2454-418f-bbd6-3f5f8b3eadbd"
+        },
+        {
+            "query": "What did I throw in the bin?",
+            "IoU": 0.8381280000000061,
+            "best_prediction": [
+                408.75,
+                412.5
+            ],
+            "clip_uid": "f2e7ca6e-d5f5-4342-b870-3cfa9174005a"
+        },
+        {
+            "query": "Where was the green electric drill?",
+            "IoU": 0.8372742708333334,
+            "best_prediction": [
+                0.0,
+                480.0
+            ],
+            "clip_uid": "eaf8d34a-0e20-45d0-a288-569df047461e"
+        },
+        {
+            "query": "How many cups of water did I pour in the mixer? ",
+            "IoU": 0.8294143271078878,
+            "best_prediction": [
+                427.0249938964844,
+                453.245849609375
+            ],
+            "clip_uid": "59c01c97-9312-47f8-b911-dd789978714b"
+        },
+        {
+            "query": "How many onions was chopped?",
+            "IoU": 0.8275862068965517,
+            "best_prediction": [
+                63.75,
+                183.75
+            ],
+            "clip_uid": "a40dce18-488d-4acc-b754-fcd56c204db1"
+        },
+        {
+            "query": "Where were the papers before I put them in the empty box?",
+            "IoU": 0.8235294117647058,
+            "best_prediction": [
+                247.5,
+                255.0
+            ],
+            "clip_uid": "8e701bd2-1489-4d3c-97ff-b8cd9279ed81"
+        },
+        {
+            "query": "What vegetable did I cut",
+            "IoU": 0.811044917830336,
+            "best_prediction": [
+                75.0,
+                90.0
+            ],
+            "clip_uid": "9a13aee2-0dca-49f8-968f-8f53c5a62963"
+        },
+        {
+            "query": "Did i leave the tap open?",
+            "IoU": 0.8071802783863236,
+            "best_prediction": [
+                416.25,
+                431.25
+            ],
+            "clip_uid": "992cee60-a8af-423f-8a40-5b14208fcc1a"
+        }
+    ]
+}
